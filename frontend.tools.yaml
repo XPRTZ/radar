@@ -307,13 +307,13 @@
   description: 
 -
   name: SpecFlow
-  ring: assert
+  ring: assess
   quadrant: tools
   isNew: TRUE
   description: 
 -
   name: Selenium
-  ring: assert
+  ring: assess
   quadrant: tools
   isNew: TRUE
   description: 
@@ -343,7 +343,7 @@
   description: 
 -
   name: Roslyn Analyzers
-  ring: assert
+  ring: assess
   quadrant: tools
   isNew: TRUE
   description: 
@@ -367,7 +367,7 @@
   description: 
 -
   name: Opinionated Tools
-  ring: assert
+  ring: assess
   quadrant: tools
   isNew: TRUE
   description: Prettier
@@ -379,7 +379,7 @@
   description: 
 -
   name: Distributed Tracing
-  ring: assert
+  ring: assess
   quadrant: tools
   isNew: TRUE
   description: 
@@ -397,7 +397,7 @@
   description: 
 -
   name: LinqPad
-  ring: assert
+  ring: assess
   quadrant: tools
   isNew: TRUE
   description: 
@@ -409,7 +409,7 @@
   description: 
 -
   name: Mongo DB
-  ring: assert
+  ring: assess
   quadrant: tools
   isNew: TRUE
   description: 
