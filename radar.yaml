@@ -1,0 +1,543 @@
+---
+-
+  name: .Net Framework
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: >
+    .Net Framework
+-
+  name: .Net Framework
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: ES2015+
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: >
+    ES2015+
+-
+  name: Angular
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Angular'
+-
+  name: Powershell
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Powershell'
+-
+  name: Vue
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Vue'
+-
+  name: React
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: NextJS
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Gatsby
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: GraphQL
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: ReactNative
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Xamarin
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Blazor
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Less
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: SASS
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Bootstrap
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Python
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: C#
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Ember
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Polly
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: VB.NET
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: .NET Core
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: TypeScript
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: F#
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: C++
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: ASP.NET MVC
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: WPF
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Web Assembly
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Winforms
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Linq
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: .NET Standard
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: ASP.NET Web Forms
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
+  name: Logging
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Seq, Nlog, log4net, Serilog'
+-
+  name: Azure Devops
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Containers
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: 
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: Docker, Rkt
+-
+  name: Github
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: IOT
+  ring: asses
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Kubernetes
+  ring: trial
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Search engine
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: Elasticsearch, Azure Search, solr
+-
+  name: Netlify
+  ring: asses
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Linux
+  ring: trial
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Azure
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: AWS
+  ring: assess
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Google
+  ring: assess
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: IIS
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Windows Server
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 
+-
+  name: Kanban
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Event storming
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: Example mapping
+-
+  name: Scrum
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Production First mindset
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: CI/CD
+-
+  name: SOLID principles
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Machine learning
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: DDD
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: Modelling, Value mapping, Event sourcing, DDD tactical 
+-
+  name: BDD
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Test before commit
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Open ID connect
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: OAuth 2
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Design patterns
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: CQRS
+-
+  name: Cloud native
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Cloud agnostic provider
+  ring: hold
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Business apps without code
+  ring: hold
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Chaos engineering
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Microservices
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Relational DB modelling
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Document DB modelling
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Mob programming
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Git
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Visual Studio Code
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: TFVC
+  ring: hold
+  quadrant: tools
+  isNew: FALSE
+  description: TFS source control
+-
+  name: Fluent Assertions
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: SpecFlow
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Selenium
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Rider
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Visual Studio
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Moq
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: xUnit
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Roslyn Analyzers
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: NUnit
+  ring: hold
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: MSTest
+  ring: hold
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Jenkins
+  ring: hold
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Opinionated Tools
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: Prettier
+-
+  name: VS Live Share
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Distributed Tracing
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Distributed Logging
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Octopus
+  ring: hold
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: LinqPad
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: SQL Server
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: Mongo DB
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 
+-
+  name: SonarCloud
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 
