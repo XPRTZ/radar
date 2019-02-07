@@ -1,15 +1,15 @@
 name,ring,quadrant,isNew,description
 .Net Framework,adopt,languages & frameworks,true,".Net Framework
 "
+Vue,trial,languages & frameworks,true,Vue
+Gatsby,assess,languages & frameworks,true,
 .Net Framework,hold,languages & frameworks,true,
 ES2015+,adopt,languages & frameworks,true,"ES2015+
 "
 Angular,adopt,languages & frameworks,true,Angular
 Powershell,trial,languages & frameworks,true,Powershell
-Vue,trial,languages & frameworks,true,Vue
 React,trial,languages & frameworks,true,
 NextJS,assess,languages & frameworks,true,
-Gatsby,assess,languages & frameworks,true,
 GraphQL,trial,languages & frameworks,true,
 ReactNative,assess,languages & frameworks,true,
 Xamarin,assess,languages & frameworks,true,
@@ -35,8 +35,7 @@ Linq,adopt,languages & frameworks,true,
 ASP.NET Web Forms,hold,languages & frameworks,true,
 Logging,adopt,languages & frameworks,true,"Seq, Nlog, log4net, Serilog"
 Azure Devops,adopt,platforms,true,
-Containers,adopt,platforms,true,
-,adopt,platforms,true,"Docker, Rkt"
+Containers,adopt,platforms,true,"Docker, Rkt"
 Github,adopt,platforms,true,
 IOT,assess,platforms,true,
 Kubernetes,trial,platforms,true,

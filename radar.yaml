@@ -7,6 +7,18 @@
   description: >
     .Net Framework
 -
+  name: Vue
+  ring: trial
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Vue'
+-
+  name: Gatsby
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: ''
+-
   name: .Net Framework
   ring: hold
   quadrant: languages & frameworks
@@ -32,12 +44,6 @@
   isNew: TRUE
   description: 'Powershell'
 -
-  name: Vue
-  ring: trial
-  quadrant: languages & frameworks
-  isNew: TRUE
-  description: 'Vue'
--
   name: React
   ring: trial
   quadrant: languages & frameworks
@@ -45,12 +51,6 @@
   description: ''
 -
   name: NextJS
-  ring: assess
-  quadrant: languages & frameworks
-  isNew: TRUE
-  description: ''
--
-  name: Gatsby
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
@@ -207,12 +207,6 @@
   description: 
 -
   name: Containers
-  ring: adopt
-  quadrant: platforms
-  isNew: TRUE
-  description: 
--
-  name: 
   ring: adopt
   quadrant: platforms
   isNew: TRUE
