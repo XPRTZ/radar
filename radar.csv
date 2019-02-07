@@ -39,7 +39,7 @@ Containers,adopt,platforms,true,"Docker, Rkt"
 Github,adopt,platforms,true,
 IOT,assess,platforms,true,
 Kubernetes,trial,platforms,true,
-Search engine,adopt,platforms,true,"Elasticsearch, Azure Search, solr"
+Search engine,adopt,tools,true,"Elasticsearch, Azure Search, solr"
 Netlify,assess,platforms,true,
 Linux,trial,platforms,true,
 Azure,adopt,platforms,true,
