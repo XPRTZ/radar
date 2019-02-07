@@ -38,10 +38,10 @@ Azure Devops,adopt,platforms,true,
 Containers,adopt,platforms,true,
 ,adopt,platforms,true,"Docker, Rkt"
 Github,adopt,platforms,true,
-IOT,asses,platforms,true,
+IOT,assess,platforms,true,
 Kubernetes,trial,platforms,true,
 Search engine,adopt,platforms,true,"Elasticsearch, Azure Search, solr"
-Netlify,asses,platforms,true,
+Netlify,assess,platforms,true,
 Linux,trial,platforms,true,
 Azure,adopt,platforms,true,
 AWS,assess,platforms,true,
