@@ -1,0 +1,121 @@
+---
+-
+  name: Kanban
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Event storming
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: Example mapping
+-
+  name: Scrum
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Production First mindset
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: CI/CD
+-
+  name: SOLID principles
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Machine learning
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: DDD
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: Modelling, Value mapping, Event sourcing, DDD tactical 
+-
+  name: BDD
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Test before commit
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Open ID connect
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: OAuth 2
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Design patterns
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: CQRS
+-
+  name: Cloud native
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Cloud agnostic provider
+  ring: hold
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Business apps without code
+  ring: hold
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Chaos engineering
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Microservices
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Relational DB modelling
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Document DB modelling
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description:
+-
+  name: Mob programming
+  ring: assess
+  quadrant: techniques
+  isNew: TRUE
+  description:
