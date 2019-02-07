@@ -1,31 +1,31 @@
 {
   "name": "radar",
   "version": "1.0.0",
-  "description": "Macaw Interactive technology radars",
+  "description": "XPRTZ technology radar",
   "main": "index.js",
   "scripts": {
     "convert": "npm-run-all --parallel convert:*",
-    "dev:frontend": "npm-run-all --parallel watchconvert:frontend serveCsv chrome:frontend",
-    "watchconvert:frontend": "chokidar frontend.yaml -c \"node yaml2csv.js -i frontend.yaml -o frontend.csv\"",
-    "chrome:frontend": "node startRadarWithCsv.js --csv frontend.csv --port 9999",
-    "convert:frontend": "node yaml2csv.js -i frontend.yaml -o frontend.csv",
+    "dev:radar": "npm-run-all --parallel watchconvert:radar serveCsv chrome:radar",
+    "watchconvert:radar": "chokidar radar.yaml -c \"node yaml2csv.js -i radar.yaml -o radar.csv\"",
+    "chrome:radar": "node startRadarWithCsv.js --csv radar.csv --port 9999",
+    "convert:radar": "node yaml2csv.js -i radar.yaml -o radar.csv",
     "serveCsv": "node serveCsv --port 9999",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macaw-interactive/radar.git"
+    "url": "git+https://github.com/XPRTZ/radar.git"
   },
   "keywords": [
     "Technology",
     "Radar"
   ],
-  "author": "Macaw Interactive",
-  "license": "ISC",
+  "author": "XPRTZ",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/macaw-interactive/radar/issues"
+    "url": "https://github.com/XPRTZ/radar/issues"
   },
-  "homepage": "https://github.com/macaw-interactive/radar#readme",
+  "homepage": "https://github.com/XPRTZ/radar#readme",
   "dependencies": {
     "chokidar-cli": "^1.2.1",
     "express": "^4.16.4",
@@ -33,7 +33,7 @@
     "jsonexport": "^2.3.0",
     "minimist": "^1.2.0",
     "ngrok": "^3.1.0",
-    "npm-run-all": "^4.1.3",
-    "start-chrome": "0.0.3"
+    "npm-run-all": "^4.1.5",
+    "start-chrome": "^0.0.3"
   }
 }
