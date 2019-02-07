@@ -232,7 +232,7 @@
 -
   name: Search engine
   ring: adopt
-  quadrant: platforms
+  quadrant: tools
   isNew: TRUE
   description: Elasticsearch, Azure Search, solr
 -
