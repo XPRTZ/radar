@@ -11,192 +11,191 @@
   ring: hold
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: ES2015+
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: >
-    ES2015+
+  description: ES2015+
 -
   name: Angular
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Angular'
+  description: Angular
 -
   name: Powershell
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Powershell'
+  description: Powershell
 -
   name: Vue
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Vue'
+  description: Vue
 -
   name: React
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: NextJS
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Gatsby
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: GraphQL
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: ReactNative
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Xamarin
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Blazor
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Less
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: SASS
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Bootstrap
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Python
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: C#
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Ember
   ring: hold
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Polly
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: VB.NET
   ring: hold
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: .NET Core
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: TypeScript
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: F#
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: C++
   ring: hold
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: ASP.NET MVC
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: WPF
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Web Assembly
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Winforms
   ring: hold
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Linq
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: .NET Standard
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: ASP.NET Web Forms
   ring: hold
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 
 -
   name: Logging
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Seq, Nlog, log4net, Serilog'
+  description: Seq, Nlog, log4net, Serilog
 -
