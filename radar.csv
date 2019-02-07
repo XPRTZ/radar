@@ -1,0 +1,93 @@
+name,ring,quadrant,isNew,description
+.Net Framework,adopt,languages & frameworks,true,".Net Framework
+"
+.Net Framework,hold,languages & frameworks,true,
+ES2015+,adopt,languages & frameworks,true,"ES2015+
+"
+Angular,adopt,languages & frameworks,true,Angular
+Powershell,trial,languages & frameworks,true,Powershell
+Vue,trial,languages & frameworks,true,Vue
+React,trial,languages & frameworks,true,
+NextJS,assess,languages & frameworks,true,
+Gatsby,assess,languages & frameworks,true,
+GraphQL,trial,languages & frameworks,true,
+ReactNative,assess,languages & frameworks,true,
+Xamarin,assess,languages & frameworks,true,
+Blazor,assess,languages & frameworks,true,
+Less,assess,languages & frameworks,true,
+SASS,assess,languages & frameworks,true,
+Bootstrap,assess,languages & frameworks,true,
+Python,assess,languages & frameworks,true,
+C#,adopt,languages & frameworks,true,
+Ember,hold,languages & frameworks,true,
+Polly,trial,languages & frameworks,true,
+VB.NET,hold,languages & frameworks,true,
+.NET Core,adopt,languages & frameworks,true,
+TypeScript,adopt,languages & frameworks,true,
+F#,assess,languages & frameworks,true,
+C++,hold,languages & frameworks,true,
+ASP.NET MVC,adopt,languages & frameworks,true,
+WPF,assess,languages & frameworks,true,
+Web Assembly,assess,languages & frameworks,true,
+Winforms,hold,languages & frameworks,true,
+Linq,adopt,languages & frameworks,true,
+.NET Standard,adopt,languages & frameworks,true,
+ASP.NET Web Forms,hold,languages & frameworks,true,
+Logging,adopt,languages & frameworks,true,"Seq, Nlog, log4net, Serilog"
+Azure Devops,adopt,platforms,true,
+Containers,adopt,platforms,true,
+,adopt,platforms,true,"Docker, Rkt"
+Github,adopt,platforms,true,
+IOT,asses,platforms,true,
+Kubernetes,trial,platforms,true,
+Search engine,adopt,platforms,true,"Elasticsearch, Azure Search, solr"
+Netlify,asses,platforms,true,
+Linux,trial,platforms,true,
+Azure,adopt,platforms,true,
+AWS,assess,platforms,true,
+Google,assess,platforms,true,
+IIS,adopt,platforms,true,
+Windows Server,adopt,platforms,true,
+Kanban,adopt,techniques,true,
+Event storming,trial,techniques,true,Example mapping
+Scrum,adopt,techniques,true,
+Production First mindset,adopt,techniques,true,CI/CD
+SOLID principles,adopt,techniques,true,
+Machine learning,assess,techniques,true,
+DDD,trial,techniques,true,"Modelling, Value mapping, Event sourcing, DDD tactical"
+BDD,assess,techniques,true,
+Test before commit,adopt,techniques,true,
+Open ID connect,adopt,techniques,true,
+OAuth 2,adopt,techniques,true,
+Design patterns,adopt,techniques,true,CQRS
+Cloud native,assess,techniques,true,
+Cloud agnostic provider,hold,techniques,true,
+Business apps without code,hold,techniques,true,
+Chaos engineering,assess,techniques,true,
+Microservices,trial,techniques,true,
+Relational DB modelling,adopt,techniques,true,
+Document DB modelling,trial,techniques,true,
+Mob programming,assess,techniques,true,
+Git,adopt,tools,true,
+Visual Studio Code,adopt,tools,true,
+TFVC,hold,tools,false,TFS source control
+Fluent Assertions,trial,tools,true,
+SpecFlow,assess,tools,true,
+Selenium,assess,tools,true,
+Rider,trial,tools,true,
+Visual Studio,adopt,tools,true,
+Moq,adopt,tools,true,
+xUnit,adopt,tools,true,
+Roslyn Analyzers,assess,tools,true,
+NUnit,hold,tools,true,
+MSTest,hold,tools,true,
+Jenkins,hold,tools,true,
+Opinionated Tools,assess,tools,true,Prettier
+VS Live Share,trial,tools,true,
+Distributed Tracing,assess,tools,true,
+Distributed Logging,trial,tools,true,
+Octopus,hold,tools,true,
+LinqPad,assess,tools,true,
+SQL Server,adopt,tools,true,
+Mongo DB,assess,tools,true,
+SonarCloud,trial,tools,true,
