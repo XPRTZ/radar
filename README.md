@@ -16,7 +16,7 @@ tool and write it back to github, there is also a more advanced approach:
 1. Clone this repo
 2. Execute ```npm run dev:radar ``` to watch the YAML file for changes and preview in Chrome (needs refresh)
 3. Execute ```npm run convert``` to convert all radars to their CSV formats
-4. Commit and push to mke changes visible for the rest of thwe world
+4. Commit and push to mke changes visible for the rest of the world
 
 ## Background information
 
