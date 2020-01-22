@@ -10,7 +10,7 @@ Technology Radar:
 
 ## Edit radars on local machine
 
-Besides the above approach with editing the content of the radar directly in Github, convert it with an online 
+Besides the above approach with editing the content of the radar directly in Github, convert it with an online
 tool and write it back to github, there is also a more advanced approach:
 
 1. Clone this repo
