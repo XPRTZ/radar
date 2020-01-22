@@ -6,31 +6,7 @@
   isNew: FALSE
   description: 'Angular'
 -
-  name: Vue
-  ring: trial
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: 'Vue'
--
-  name: Gatsby
-  ring: assess
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: ''
--
-  name: .Net Framework
-  ring: hold
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: ''
--
-  name: React
-  ring: adopt
-  quadrant: languages & frameworks
-  isNew: FALSE
-  description: ''
--
-  name: GraphQL
+  name: gRPC
   ring: trial
   quadrant: languages & frameworks
   isNew: FALSE
@@ -42,6 +18,36 @@
   isNew: FALSE
   description: ''
 -
+  name: .Net Framework
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: ''
+-
+  name: Vue
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 'Vue'
+-
+  name: Gatsby
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: ''
+-
+  name: React
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: ''
+-
+  name: GraphQL
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: ''
+-
   name: Blazor
   ring: assess
   quadrant: languages & frameworks
@@ -49,7 +55,7 @@
   description: ''
 -
   name: Python
-  ring: trial
+  ring: adopt
   quadrant: languages & frameworks
   isNew: FALSE
   description: ''
@@ -59,6 +65,12 @@
   quadrant: languages & frameworks
   isNew: FALSE
   description: ''
+-
+  name: Bedrock Framework
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 'Project Bedrock is a set of .NET Core APIs for doing transport agnostic networking. In .NET Core 3.0 we''ve introduced some new abstractions as part of Microsoft.AspNetCore.Connections.Abstractions for client-server communication.'
 -
   name: TypeScript
   ring: adopt
@@ -78,7 +90,31 @@
   isNew: FALSE
   description: ''
 -
+  name: Windows Communication Foundation
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: ''
+-
+  name: Kubernetes
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
   name: Azure Devops
+  ring: adopt
+  quadrant: tools
+  isNew: FALSE
+  description:
+-
+  name: Progressive Web App
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
+  name: Node.js
   ring: adopt
   quadrant: platforms
   isNew: FALSE
@@ -92,7 +128,7 @@
 -
   name: Github
   ring: adopt
-  quadrant: platforms
+  quadrant: tools
   isNew: FALSE
   description:
 -
@@ -102,29 +138,29 @@
   isNew: FALSE
   description:
 -
-  name: Kubernetes
-  ring: trial
+  name: Elasticsearch
+  ring: adopt
   quadrant: platforms
   isNew: FALSE
   description:
 -
-  name: Search engine
+  name: Azure Search
   ring: adopt
-  quadrant: tools
-  isNew: FALSE
-  description: Elasticsearch, Azure Search, solr
--
-  name: Netlify
-  ring: assess
   quadrant: platforms
   isNew: FALSE
   description:
 -
   name: Linux
-  ring: trial
+  ring: adopt
   quadrant: platforms
   isNew: FALSE
   description:
+-
+  name: Headless CMS
+  ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description: Prismic, Contentful
 -
   name: Azure
   ring: adopt
@@ -132,20 +168,50 @@
   isNew: FALSE
   description:
 -
-  name: AWS
-  ring: assess
-  quadrant: platforms
-  isNew: FALSE
-  description:
--
-  name: Google
-  ring: assess
-  quadrant: platforms
-  isNew: FALSE
-  description:
--
-  name: IIS
+  name: Cosmos DB
   ring: adopt
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
+  name: Serverless
+  ring: trial
+  quadrant: platforms
+  isNew: FALSE
+  description: Azure Functions, AWS Lambda
+-
+  name: Virtual Machines
+  ring: hold
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
+  name: Private hosted hardware
+  ring: hold
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
+  name: AWS
+  ring: trial
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
+  name: OpenStack
+  ring: trial
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
+  name: Red Hat OpenShift
+  ring: assess
+  quadrant: platforms
+  isNew: FALSE
+  description:
+-
+  name: Google Cloud Platform
+  ring: assess
   quadrant: platforms
   isNew: FALSE
   description:
@@ -174,11 +240,11 @@
   isNew: FALSE
   description:
 -
-  name: Production First mindset
+  name: DevOps mindset
   ring: adopt
   quadrant: techniques
   isNew: FALSE
-  description: CI/CD
+  description: Production first mindset
 -
   name: SOLID principles
   ring: adopt
@@ -186,23 +252,11 @@
   isNew: FALSE
   description:
 -
-  name: Machine learning
-  ring: assess
-  quadrant: techniques
-  isNew: FALSE
-  description:
--
-  name: DDD
+  name: Domain Driven Design
   ring: trial
   quadrant: techniques
   isNew: FALSE
   description: Modelling, Value mapping, Event sourcing, DDD tactical
--
-  name: BDD
-  ring: assess
-  quadrant: techniques
-  isNew: FALSE
-  description:
 -
   name: Test before commit
   ring: adopt
@@ -210,13 +264,7 @@
   isNew: FALSE
   description:
 -
-  name: Open ID connect
-  ring: adopt
-  quadrant: techniques
-  isNew: FALSE
-  description:
--
-  name: OAuth 2
+  name: OWASP
   ring: adopt
   quadrant: techniques
   isNew: FALSE
@@ -229,12 +277,12 @@
   description: CQRS
 -
   name: Cloud native
-  ring: assess
+  ring: adopt
   quadrant: techniques
   isNew: FALSE
   description:
 -
-  name: Cloud agnostic provider
+  name: Cloud agnostic
   ring: hold
   quadrant: techniques
   isNew: FALSE
@@ -254,24 +302,6 @@
 -
   name: Microservices
   ring: trial
-  quadrant: techniques
-  isNew: FALSE
-  description:
--
-  name: Relational DB modelling
-  ring: adopt
-  quadrant: techniques
-  isNew: FALSE
-  description:
--
-  name: Document DB modelling
-  ring: trial
-  quadrant: techniques
-  isNew: FALSE
-  description:
--
-  name: Mob programming
-  ring: assess
   quadrant: techniques
   isNew: FALSE
   description:
@@ -301,7 +331,7 @@
   description:
 -
   name: SpecFlow
-  ring: assess
+  ring: hold
   quadrant: tools
   isNew: FALSE
   description:
@@ -360,11 +390,11 @@
   isNew: FALSE
   description:
 -
-  name: Opinionated Tools
-  ring: assess
+  name: Prettier
+  ring: adopt
   quadrant: tools
   isNew: FALSE
-  description: Prettier
+  description: Opinionated code formatter
 -
   name: VS Live Share
   ring: trial
@@ -372,14 +402,20 @@
   isNew: FALSE
   description:
 -
-  name: Distributed Tracing
-  ring: assess
+  name: Distributed Tracing & Logging
+  ring: trial
+  quadrant: tools
+  isNew: FALSE
+  description: Application Insights
+-
+  name: Terraform
+  ring: trial
   quadrant: tools
   isNew: FALSE
   description:
 -
-  name: Distributed Logging
-  ring: trial
+  name: Pulumi
+  ring: assess
   quadrant: tools
   isNew: FALSE
   description:
@@ -390,26 +426,20 @@
   isNew: FALSE
   description:
 -
-  name: LinqPad
-  ring: assess
-  quadrant: tools
-  isNew: FALSE
-  description:
--
   name: SQL Server
   ring: adopt
-  quadrant: tools
+  quadrant: platforms
   isNew: FALSE
   description:
 -
   name: Mongo DB
   ring: assess
-  quadrant: tools
+  quadrant: platforms
   isNew: FALSE
   description:
 -
   name: SonarCloud
-  ring: trial
+  ring: adopt
   quadrant: tools
   isNew: FALSE
   description:
