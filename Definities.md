@@ -5,7 +5,7 @@
 - Adopt: nu gebruiken, geen twijfel mogelijk. Bewezen.
 - Trial: Shortlist om in productie te gebruiken. Je project moet een kleine mate van risico kunnen dragen.
 - Assess: Experimenteel. Heeft potentie. Project moet groot riscio kunnen dragen.
-- Hold: Uitfaseren wanneer mogelijk. Niet meer gebruiken voor nieuwe projecten.
+- Hold: Geniet geen voorkeur meer. Terughoudende benadering bij nieuwe oplossingen.
 
 ## Kwadranten
 

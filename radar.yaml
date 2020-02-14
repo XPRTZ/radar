@@ -114,6 +114,12 @@
   isNew: FALSE
   description:
 -
+  name: dapr
+  ring: assess
+  quadrant: platforms
+  isNew: FALSE
+  description: An event-driven, portable runtime for building microservices on cloud and edge.
+-
   name: Node.js
   ring: adopt
   quadrant: platforms
