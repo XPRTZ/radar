@@ -1,13 +1,12 @@
 name,ring,quadrant,isNew,description
-Yarp,assess,techniques,true,
-C# 8 - non-nullable reference types,trial,techniques,true,
-Serviceworkers,trial,techniques,true,
-Progressive Web App,adopt,techniques,true,
-Vue3,trial,languages & frameworks,true,
-Blazor,trial,languages & frameworks,true,
-CosmosDb,adopt,platforms,true,
-Fluent Assertions,adopt,tools,true,
-Terraform,trial,tools,true,
-AKS,trial,tools,true,
-FakeItEasy,adopt,tools,true,
-Cypress,assess,tools,true,
+Yarp,assess,techniques,true,Program your routes
+C# 8 - non-nullable reference types,trial,techniques,true,The solution against those pesky null reference exceptions
+Progressive Web App,adopt,techniques,true,"<b>Progressive Web Apps</b> are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy  to bring a native app-like user experience to cross-platform web applications. By utilizing service workers that allow intercepting  and control of how a web browser handles its network requests and asset caching, the user has reliable fast web pages and offline experience. One of our projects that uses a PWA is <a href=""https://www.terraindex.com"">TerraIndex</a> that allows its field workers that have to cope  with unstable mobile connection and still have a reliable web app experience. You can get also started with a beginners tutorial <a href=""https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/"">here</a>"
+Vue3,trial,languages & frameworks,true,"When it comes to frontend frameworks, <b>Vue</b> is the newest kid on the block. Now with <a href=""https://v3.vuejs.org/"">version 3 out of beta</a>,  XPRTZ's believe it became mature enough to give it a trial run and compare against the more popular Angular and React."
+Blazor,trial,languages & frameworks,true,Why mess with javascript if we can run frontend applications with C#
+CosmosDb,adopt,platforms,true,Quite interesting because it allows querying within a no-sql database
+Fluent Assertions,adopt,tools,true,"<b>Fluent Assertions</b> is an extensive set of extension methods that allow you to more naturally specify  the expected outcome of a TDD or BDD-style unit tests. Many of our XPRTZ colleagues have <a href=""https://fluentassertions.com/"">FluentAssertions</a> in their  standard set of tools that are used for each project."
+Terraform,trial,tools,true,Everything as code solution for Azure components
+AKS,trial,tools,true,Managing container clusters in the cloud
+FakeItEasy,adopt,tools,true,Mocking framework with more intuitive and fluent syntax
+Cypress,assess,tools,true,"<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium  like most testing frameworks do. It's an <a href=""https://www.cypress.io/how-it-works/"">all-in-one test suite</a> that is  blazing fast, easy to setup and an delight to delop with, that's what we like at XPRTZ so more than enough reason to asses it."
