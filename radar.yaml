@@ -54,13 +54,20 @@
   ring: trial
   quadrant: tools
   isNew: TRUE
-  description: 'Everything as code solution for Azure components'
+  description: '<a href="https://www.terraform.io/">Terraform</a> is een infrastructure-as-code (IaC) tool voor het provisioneren en onderhouden van cloud services.<br><br> 
+  Infrastructure-as-code stelt ons in staat om de server configuraties die wij nodig hebben om onze software op te hosten op een eenduidige, herhaalbare en onderhoudbare manier op te zetten. 
+  Dit verhoogt de kwaliteit van onze code doordat er geen verschillen meer zijn tussen onze ontwikkel-, test-, acceptatie- en productieomgevingen.<br><br> 
+  Wat ons vooral aanspreekt aan Terraform is dat het een declaratieve tool is, d.w.z. dat we niet stap voor stap hoeven te specificeren hoe elke omgeving opgezet moet worden, maar dat we 
+  simpelweg aangeven hoe elke omgeving er uit moet gaan zien en Terraform regelt de rest. Hierdoor hoef je niet meer tientallen scripts te bestuderen om een idee te krijgen wat er op elke omgeving staat.'
 -
   name: AKS
   ring: trial
   quadrant: tools
   isNew: TRUE
-  description: 'Managing container clusters in the cloud'
+  description: '<a href="https://azure.microsoft.com/nl-nl/services/kubernetes-service/">Azure Kubernetes Service (AKS)</a> bied alle mogelijkheden die wij nodig hebben voor het hosten en
+  beheren van container applicaties m.b.v. Kubernetes.<br><br>
+  Kubernetes is in een hele korte tijd uitgegroeid tot de de-facto standaard tool voor het orkestreren van container applicaties. En met AKS kunnen we hier gemakkelijk gebruik van maken binnen de Azure-cloud. 
+  Als .Net developers hebben we al veel affiniteit en ervaring met Microsoft Azure en daarom maken we graag gebruik van AKS bij het bouwen van container applicaties.'
 -
   name: FakeItEasy
   ring: adopt
