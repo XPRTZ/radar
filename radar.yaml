@@ -1,17 +1,5 @@
 ---
 -
-  name: Yarp
-  ring: assess
-  quadrant: techniques
-  isNew: TRUE
-  description: 'Program your routes'
--
-  name: C# 8 - non-nullable reference types
-  ring: trial
-  quadrant: techniques
-  isNew: TRUE
-  description: 'The solution against those pesky null reference exceptions'
--
   name: Progressive Web App
   ring: adopt
   quadrant: techniques
@@ -22,6 +10,18 @@
   One of our projects that uses a PWA is <a href="https://www.terraindex.com">TerraIndex</a> that allows its field workers that have to cope 
   with unstable mobile connection and still have a reliable web app experience.
   You can get also started with a beginners tutorial <a href="https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/">here</a>'
+-
+  name: C# 8 - non-nullable reference types
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: 'The solution against those pesky null reference exceptions'
+-
+  name: Yarp
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Program your routes'
 -
   name: Vue3
   ring: trial
@@ -54,20 +54,20 @@
   ring: trial
   quadrant: tools
   isNew: TRUE
-  description: '<a href="https://www.terraform.io/">Terraform</a> is een infrastructure-as-code (IaC) tool voor het provisioneren en onderhouden van cloud services.<br><br> 
-  Infrastructure-as-code stelt ons in staat om de server configuraties die wij nodig hebben om onze software op te hosten op een eenduidige, herhaalbare en onderhoudbare manier op te zetten. 
-  Dit verhoogt de kwaliteit van onze code doordat er geen verschillen meer zijn tussen onze ontwikkel-, test-, acceptatie- en productieomgevingen.<br><br> 
-  Wat ons vooral aanspreekt aan Terraform is dat het een declaratieve tool is, d.w.z. dat we niet stap voor stap hoeven te specificeren hoe elke omgeving opgezet moet worden, maar dat we 
-  simpelweg aangeven hoe elke omgeving er uit moet gaan zien en Terraform regelt de rest. Hierdoor hoef je niet meer tientallen scripts te bestuderen om een idee te krijgen wat er op elke omgeving staat.'
+  description: '<a href="https://www.terraform.io/">Terraform</a> is an infrastructure-as-code (IaC) tool for provisioning and maintaining cloud services.<br><br>
+  Infrastructure-as-code allows us to create and maintain the server configurations that we need to host our applications in an unambigous and repeatable way. This increases the quality
+  of our code because it eliminate any chance of differences between our development, test, acceptance and production environments.<br><br>
+  One of the features of Terraform that we particularly like is it''s declarative syntax. This enables us to simply declare what the environment we want Terraform to create should look like, without
+  needing to specify every single step that needs to be executed to create it. This also means that we can see exactly what is configured on each environment without having to parse dozens of
+  install scripts.'
 -
   name: AKS
   ring: trial
-  quadrant: tools
+  quadrant: platforms
   isNew: TRUE
-  description: '<a href="https://azure.microsoft.com/nl-nl/services/kubernetes-service/">Azure Kubernetes Service (AKS)</a> bied alle mogelijkheden die wij nodig hebben voor het hosten en
-  beheren van container applicaties m.b.v. Kubernetes.<br><br>
-  Kubernetes is in een hele korte tijd uitgegroeid tot de de-facto standaard tool voor het orkestreren van container applicaties. En met AKS kunnen we hier gemakkelijk gebruik van maken binnen de Azure-cloud. 
-  Als .Net developers hebben we al veel affiniteit en ervaring met Microsoft Azure en daarom maken we graag gebruik van AKS bij het bouwen van container applicaties.'
+  description: '<a href="https://azure.microsoft.com/nl-nl/services/kubernetes-service/">Azure Kubernetes Service (AKS)</a> is a cloud service for hosting and maintaining container applications on Microsoft Azure, 
+  using Kubernetes.<br><br>Kubernetes has quickly become the de-facto standard for orchestrating container applications. With AKS we have an easy to use tool for working with Kubernetes in the Azure cloud. Since we 
+  have a lot of experience and affinity with Microsoft Azure as .Net developers, AKS is the logical tool we reach for when building container applications.'
 -
   name: FakeItEasy
   ring: adopt
@@ -82,3 +82,81 @@
   description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium 
   like most testing frameworks do. It''s an <a href="https://www.cypress.io/how-it-works/">all-in-one test suite</a> that is 
   blazing fast, easy to setup and an delight to delop with, that''s what we like at XPRTZ so more than enough reason to asses it.'
+-
+  name: OpenShift
+  ring: assess
+  quadrant: platforms
+  isNew: TRUE
+  description: 'Tool voor het hosten en beheren van container applicaties. Alternatief voor AKS.'
+-
+  name: AutoFixture
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 'Fast and easy creation of test fixtures.'
+-
+  name: Event-driven architectuur
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: 'Software architectuur paradigma waarbij de communicatie tussen verschillen delen van de applicatie verloopt via events.'
+-
+  name: Azure Servicebus
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 'Servicebus implementatie op Microsoft Azure.'
+-
+  name: Azure Functions
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 'Serverless functions op Microsoft Azure.'
+-
+  name: Marten DB
+  ring: assess
+  quadrant: platforms
+  isNew: TRUE
+  description: 'Storage oplossing specifiek ontworpen voor event-driven en CQS/CQRS architecturen.'
+-
+  name: Dapr
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Framework voor het bouwen van event-driven applicaties.'
+-
+  name: Azure Static WebApps
+  ring: adopt
+  quadrant: platforms
+  isNew: TRUE
+  description: 'Platfom voor het hosten van simpele statische websites op Microsoft Azure.'
+-
+  name: GraphQL
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Een query language voor API''s die alleen de data teruggeeft waarom gevraagd wordt.'
+-
+  name: gRPC
+  ring: adopt
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: 'Framework voor het bouwen van contract-based API''s. Wordt gezien als opvolger van WCF door Microsoft.'
+-
+  name: GitHub Actions
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 'Tool voor het automatiseren van CI/CD workflows vanuit GitHub repositories.'
+-
+  name: Dependabot
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 'Creert automatische pull requests om je dependencies up-to-date te houden.'
+-
+  name: Azure DevOps Pipelines
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 'Geautomatiseerde Ci/CD pipelines.'
