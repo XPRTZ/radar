@@ -16,7 +16,7 @@
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'In a world of front applications and many backend micros-service, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable <i>.Net</i> based Reverse proxy. Yarp uses the ASP.NET pipeline technology to managing incoming requests and routes the request streams to its destination. Routing could be done on configuration of on you own written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure.'
+  description: 'With <b>Yarp</b> you implement an reverse proxy in you own <i>.Net</i> application. In a world of front applications and many backend micros-service, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable <i>.Net</i> based Reverse proxy. Yarp uses the ASP.NET pipeline technology to managing incoming requests and routes the request streams to its destination. Routing could be done on configuration of on you own written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure. <br /><br /> Yarp is still experimental, and for bigger projects solution like Nginx are a better solution. But it has potential, and could replace in time an Ocelot application (if you do not need the request/response bodies). At XPRTZ we keep track of this Microsoft project.'
 -
   name: Vue3
   ring: trial
@@ -58,7 +58,7 @@
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: 'To test the functionality of a unit, it should be isolated from the rest of the system. With FakeItEasy the units external dependencies are replaced with Mockes, Stubs or Fakes. In FakeItEasy all are created the same, but usage determines what they are. The framework allows an easy setup of an external dependency, and also a verification external dependency. The unit may call Mocking framework with an intuitive and fluent syntax.'
+  description: 'With <b>FakeItEasy</b> the unit under test can be isoltated from the rest of the system so your not depended on it. With FakeItEasy the units external dependencies are replaced with Dummies, Mockes, Stubs or Fakes. In FakeItEasy they are all the same, and are created the same, but the usage determines what they eventually are. The framework allows an easy setup of an external dependency, and also the verification if external dependency call''s. The unit may call Mocking framework with an intuitive and fluent syntax. <br /><br /> Other mocking/isolation frameworks such as NSubstitute and Moq do the same job, but FakeItEasy makes it really, yes, easy.. '
 -
   name: Cypress
   ring: assess
@@ -76,7 +76,7 @@
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: 'When writing test code, you want to write code for that case, and not plumming code to initialize test objects because their require it. With AutoFixture you can easyily create testfixures, in the setup code you specify only the test relvante parts. The non-relevant parts are automaticly filled with dummy data during execution. The test case is focused on the essentials of the testcase its self instead of object initialized. It makes Test-Driven Development a step easier and our lives as developers happier.'
+  description: 'With <b>AutoFixture</b> you can easily create testfixures. When writing test code, you want to write code for that specific test case, and not all plumming code to initialize test objects because they require so. When initializing test objects only the test relvante parts are specified. The non-relevant parts are automatically filled with dummy data during execution. The test case is focused on the essentials of the testcase its self instead of object initialized. <br /> <br /> There are alternatives such as Bogus, witch also generate fake data in test objects. An advantage of AutoFixture for asserting fake objects is the initialization of all properties with data, instead with Bogus only set properties are filled. It''s more witch flavour you want. <br /><br /> We at XPRTZ use this all the time when writing unit tests. It makes Test-Driven Development a step easier and our lives as developers happier. :)'
 -
   name: Event-driven architectuur
   ring: adopt
