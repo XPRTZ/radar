@@ -4,7 +4,7 @@
   ring: assess
   quadrant: techniques
   isNew: TRUE
-  description: 'Program your routes'
+  description: 'In a world of front applications and many backend micros-service, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable <i>.Net</i> based Reverse proxy. Yarp uses the ASP.NET pipeline technology to managing incoming requests and routes the request streams to its destination. Routing could be done on configuration of on you own written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure.'
 -
   name: C# 8 - non-nullable reference types
   ring: trial
@@ -64,10 +64,16 @@
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: 'Mocking framework with more intuitive and fluent syntax'
+  description: 'To test the functionality of a unit, it should be isolated from the rest of the system. With FakeItEasy the units external dependencies are replaced with Mockes, Stubs or Fakes. In FakeItEasy all are created the same, but usage determines what they are. The framework allows an easy setup of an external dependency, and also a verification external dependency. The unit may call Mocking framework with an intuitive and fluent syntax.'
 -
   name: Cypress
   ring: assess
   quadrant: tools
   isNew: TRUE
   description: 'Cypress is the next generation E2E testing tool mainly designed for modern web applications'
+ - 
+  name: AutoFixture 
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 'When writing test code, you want to write code for that case, and not plumming code to initialize test objects because their require it. With AutoFixture you can easyily create testfixures, in the setup code you specify only the test relvante parts. The non-relevant parts are automaticly filled with dummy data during execution. The test case is focused on the essentials of the testcase its self instead of object initialized. It makes Test-Driven Development a step easier and our lives as developers happier.' 
