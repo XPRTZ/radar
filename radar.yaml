@@ -79,13 +79,13 @@
   ring: assess
   quadrant: tools
   isNew: TRUE
-  description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium   description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium 
+  description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium 
   like most testing frameworks do. It''s an <a href="https://www.cypress.io/how-it-works/">all-in-one test suite</a> that is 
   blazing fast, easy to setup and an delight to delop with, that''s what we like at XPRTZ so more than enough reason to asses it.'
-  description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium 
- - 
+- 
   name: AutoFixture 
   ring: adopt
   quadrant: tools
   isNew: TRUE
   description: 'When writing test code, you want to write code for that case, and not plumming code to initialize test objects because their require it. With AutoFixture you can easyily create testfixures, in the setup code you specify only the test relvante parts. The non-relevant parts are automaticly filled with dummy data during execution. The test case is focused on the essentials of the testcase its self instead of object initialized. It makes Test-Driven Development a step easier and our lives as developers happier.' 
+  
