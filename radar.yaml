@@ -10,7 +10,7 @@
   ring: trial
   quadrant: techniques
   isNew: TRUE
-  description: 'The solution against those pesky null reference exceptions'
+  description: 'Back in 1965 <a href="https://en.wikipedia.org/wiki/Tony_Hoare">Tony Hoare</a> introduced the null reference in <a href="https://en.wikipedia.org/wiki/ALGOL_W">ALGOL W</a> and this was copied by a lot of languages. Later he called this his billion-dollar mistake and apologized for the problem this has caused. C# was one of the languages that copied this feature and its developers and users had to suffer for it. Starting with C#8.0 developers now have the option to get rid of this pain with <a href="https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references">Nullable reference types</a>. Does this mean that null doesn''t exist anymore? No but you have to be explicit about it.<br><br>Reference types now behave like value types for example (bool, int, char, etc.)<br><br>When you want to create a nullable string now you have to define it as follows:<br>string? name;<br><br>Then when ever you use this variable in your code without first checking for a null reference you will get a compiler warning.<br><br>To be able to introduce this concept gradually in your code this feature can be enabled per project or per class see also <a href="https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/upgrade-to-nullable-references">Upgrade to nullable references</a>.<br><br>We see this feature as a way to better declare the intent of our code and a good practice to prevent the dreaded Null Reference Exception.'
 -
   name: Yarp
   ring: assess
