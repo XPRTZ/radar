@@ -16,7 +16,7 @@
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'With <b>Yarp</b> you implement an reverse proxy in you own <i>.Net</i> application. In a world of front applications and many backend micros-service, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable <i>.Net</i> based Reverse proxy. Yarp uses the ASP.NET pipeline technology to managing incoming requests and routes the request streams to its destination. Routing could be done on configuration of on you own written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure. <br /><br /> Yarp is still experimental, and for bigger projects solution like Nginx are a better solution. But it has potential, and could replace in time an Ocelot application (if you do not need the request/response bodies). At XPRTZ we keep track of this Microsoft project.'
+  description: 'With <a href="https://github.com/microsoft/reverse-proxy">Yarp</a>, a .Net application can be extended with a build-in reverse proxy. In a world of front applications and many backend micros-service, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable .Net based Reverse proxy. Yarp uses the ASP.NET pipeline technology to managing incoming requests and routes the request streams to its destination. Routing could be done on configuration of on you own written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure. <br /><br /> Yarp is still experimental, and for bigger projects solution like <a href="https://www.nginx.com/">Nginx</a> (a reverse-proxy) are a better solution. But it has potential, and could replace in time an <a href="https://github.com/ThreeMammals/Ocelot">Ocelot</a> (an api gateway) application (if you do not need the request/response bodies). At XPRTZ we keep track of this Microsoft project.'
 -
   name: Vue3
   ring: trial
@@ -76,13 +76,14 @@
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: 'With <b>AutoFixture</b> you can easily create testfixures. When writing test code, you want to write code for that specific test case, and not all plumming code to initialize test objects because they require so. When initializing test objects only the test relvante parts are specified. The non-relevant parts are automatically filled with dummy data during execution. The test case is focused on the essentials of the testcase its self instead of object initialized. <br /> <br /> There are alternatives such as Bogus, witch also generate fake data in test objects. An advantage of AutoFixture for asserting fake objects is the initialization of all properties with data, instead with Bogus only set properties are filled. It''s more witch flavour you want. <br /><br /> We at XPRTZ use this all the time when writing unit tests. It makes Test-Driven Development a step easier and our lives as developers happier. :)'
+  description: 'With <a href="https://github.com/AutoFixture/AutoFixture">AutoFixture</a> you can easily create testfixures. When writing test code, you want to write code for that specific test case, and not all plumming code to initialize test objects because they require so. When initializing test objects only the test relvante parts are specified. The non-relevant parts are automatically filled with dummy data during execution. The test case is focused on the essentials of the testcase its self instead of object initialized. <br /><br /> There are alternatives such as <a href="https://github.com/bchavez/Bogus">Bogus</a>, which also generate fake data in test objects. An advantage of AutoFixture for asserting fake objects is the initialization of all properties with data, instead with Bogus only set properties are filled. It''s more which flavour you want. <br /><br /> We at XPRTZ use this all the time when writing unit tests. It makes Test-Driven Development a step easier and our lives as developers happier.'
 -
   name: Event-driven architectuur
   ring: adopt
   quadrant: techniques
   isNew: TRUE
-  description: 'Software architectuur paradigma waarbij de communicatie tussen verschillen delen van de applicatie verloopt via events.'
+  description: 'With <a href="https://martinfowler.com/articles/201701-event-driven.html">event-driven</a> architecture events are used to trigger and communicate between decoupled Microservices. An event is any change in a state, e.g. a customer is updated or even an external triggered situation. There are three key components in Event-driven architecture, namely event producers, event routers/mediators, and event consumers. The architecture is decoupled or lose coupled because producers don’t know which consumers are listening for an event, and what the consequences are of its occurrence. The Azure platform itself is can be used as an event producer, e.g. <i>Cosmos DB</i> change event or scaling events from App service plans. <br /><br />Platforms like Kafka or Dapr are good solutions to use in applications based on an event-driven architecture. But also basic messaging systems like <i>RabbitMQ</i>, <i>Service Bus</i> or <i>Azure Event Grid</i> will suffice but may require more "low-level" programming.
+'
 -
   name: Azure Servicebus
   ring: adopt
@@ -106,7 +107,7 @@
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Framework voor het bouwen van event-driven applicaties.'
+  description: 'With <a href="https://dapr.io">Dapr</a> you have building blocks for building distributed applications. The shift away from monolithic applications to Microservices provided many benefits, but made it also more complex and harder for the developer. Dapr is specifically aimed to help with this in simplifying the development of distributed applications. <br /><br />Dapr is using <i>Kubernetes</i> as its primary cloud hosting environment, but it is not required. Dapr has pre-built components that solve a common set of problems in distributed applications, e.g. service invocation, state management, event handling, and many more. The key concept of Dapr is that it uses sidecars (small applications running along with your Microservices) to operate it main functionalities.<br /><br />We haven’t used it in projects, but we follow the progress Dapr with a lot of interest.'
 -
   name: Azure Static WebApps
   ring: adopt
@@ -124,7 +125,7 @@
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Framework voor het bouwen van contract-based API''s. Wordt gezien als opvolger van WCF door Microsoft.'
+  description: 'With <a href="https://grpc.io">gPRC</a> it is possible to communicate with remote services in a modern high perforce manner. gPRC is a framework where services have clear interfaces and structured messages for requests and responses. It uses Protobuf to serialize the messages to a binary message format, making the payload significant smaller compared to JSON. It supports both HTTP and HTTP2. <br /><br />Most web backend developers switched from SOAP to JSON (REST) / OpenAPI services past decade, and this is in many cases the best solution. But, when you have massive numbers of remote calls and milliseconds matter and both sides could be changed, gPRC should definitely be considered as a Remote Procedure Call (RPC) framework. <br /><br />We have used gPRC in Microservice architecture environments where low latency was required.'
 -
   name: GitHub Actions
   ring: assess
