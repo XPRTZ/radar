@@ -4,37 +4,43 @@
   ring: adopt
   quadrant: techniques
   isNew: TRUE
-  description: '<b>Progressive Web Apps</b> are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web applications. By utilizing service workers that allow intercepting and control of how a web browser handles its network requests and asset caching, the user has reliable fast web pages and offline experience. One of our projects that uses a PWA is <a href="https://www.terraindex.com">TerraIndex</a> that allows its field workers that have to cope with unstable mobile connection and still have a reliable web app experience. You can get also started with a beginners tutorial <a href="https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/">here</a>'
+  description: '<b>Progressive Web Apps</b> are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web applications. By utilizing service workers that allow intercepting and control of how a web browser handles its network requests and asset caching, the user has reliable fast web pages and offline experience. One of our projects that uses a PWA is field worker application that allows its workers in the field to have a reliable web app experience while having to cope with unstable mobile connection. A beginner''s tutorial for setting up a PWA can be started <a href="https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/">here</a>'
 -
-  name: C# 8 - non-nullable reference types
+  name: C# 8 - Nullable reference types
   ring: trial
   quadrant: techniques
   isNew: TRUE
-  description: 'Back in 1965 <a href="https://en.wikipedia.org/wiki/Tony_Hoare">Tony Hoare</a> introduced the null reference in <a href="https://en.wikipedia.org/wiki/ALGOL_W">ALGOL W</a> and this was copied by a lot of languages. Later he called this his billion-dollar mistake and apologized for the problem this has caused. C# was one of the languages that copied this feature and its developers and users had to suffer for it. Starting with C#8.0 developers now have the option to get rid of this pain with <a href="https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references">Nullable reference types</a>. Does this mean that null doesn''t exist anymore? No but you have to be explicit about it.<br><br>Reference types now behave like value types for example (bool, int, char, etc.)<br><br>When you want to create a nullable string now you have to define it as follows:<br>string? name;<br><br>Then when ever you use this variable in your code without first checking for a null reference you will get a compiler warning.<br><br>To be able to introduce this concept gradually in your code this feature can be enabled per project or per class see also <a href="https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/upgrade-to-nullable-references">Upgrade to nullable references</a>.<br><br>We see this feature as a way to better declare the intent of our code and a good practice to prevent the dreaded Null Reference Exception.'
+  description: 'Back in 1965 <a href="https://en.wikipedia.org/wiki/Tony_Hoare">Tony Hoare</a> introduced the null reference in <a href="https://en.wikipedia.org/wiki/ALGOL_W">ALGOL W</a> and this was copied by a lot of languages. Later Tony called this his billion-dollar mistake and apologized for the problem this has caused. C# was one of the languages that copied this feature and its developers and users had to suffer for it. Starting with C# 8.0 developers finally have the option to get rid of this pain with <a href="https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references">Nullable reference types</a>. Does this mean that null doesn''t exist anymore? No but you have to be explicit about it. Reference types now behave like value types, for example bool, int, char, etc.<br><br>We see this feature as a way to better declare the intent of our code and a good practice to prevent the dreaded Null Reference Exception.'
 -
   name: Yarp
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'With <a href="https://github.com/microsoft/reverse-proxy">Yarp</a>, a .Net application can be extended with a build-in reverse proxy. In a world of front applications and many backend micros-service, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable .Net based Reverse proxy. Yarp uses the ASP.NET pipeline technology to managing incoming requests and routes the request streams to its destination. Routing could be done on configuration of on you own written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure. <br /><br /> Yarp is still experimental, and for bigger projects solution like <a href="https://www.nginx.com/">Nginx</a> (a reverse-proxy) are a better solution. But it has potential, and could replace in time an <a href="https://github.com/ThreeMammals/Ocelot">Ocelot</a> (an api gateway) application (if you do not need the request/response bodies). At XPRTZ we keep track of this Microsoft project.'
+  description: 'With <a href="https://github.com/microsoft/reverse-proxy">Yarp</a> a .Net application can be extended with a build-in reverse proxy. In a world of frontend applications and many backend microservices, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable .Net based Reverse proxy. Yarp uses the ASP.NET pipeline technology to manage incoming requests and routes the request streams to its destination. Routing could be done by configuration or in custom written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure.<br><br>Yarp is still experimental so for bigger projects, solutions like <a href="https://www.nginx.com/">Nginx</a> (a reverse-proxy) are a better solution. Yarp has potential, and in time could replace an <a href="https://github.com/ThreeMammals/Ocelot">Ocelot</a> (an api gateway) application (if you do not need the request/response bodies). At XPRTZ we keep track of this Microsoft project.'
+-
+  name: Fluxor
+  ring: assess
+  quadrant: languages & frameworks
+  isNew: TRUE
+  description: '<a href="https://github.com/mrpmorris/Fluxor">Fluxor</a> is a Flux/Redux implementation for use in .Net and Blazor, to separate state changes and state reads and to be able to reuse data in different parts of the application with a single source of truth. This is a useful framework that extends Blazor and therefore we are assessing it in combination with Blazor.'
 -
   name: Vue3
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'When it comes to frontend frameworks, <b>Vue</b> is the newest kid on the block. Now with <a href="https://v3.vuejs.org/">version 3 out of beta</a>, XPRTZ''s believe it became mature enough to give it a trial run and compare against the more popular Angular and React.'
+  description: 'When it comes to frontend frameworks, <b>Vue</b> is the newest kid on the block. Now with <a href="https://v3.vuejs.org/">version 3 out of beta</a>, we believe it became mature enough to give it a trial run and compare against the other popular frontend frameworks Angular and React.'
 -
   name: Blazor
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Why mess with javascript if we can run frontend applications with C#'
+  description: '<a href="https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor">Blazor</a> is a client-side UI framework that allows you to build interactive web UIs using C#. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code are written in C#, allowing you to share code and libraries. Blazor can run directly in the browser using WebAsssembly, alternatively it can run client-side logic on the server by sending UI events to the server and receiving UI changes back using SignalR.<br><br>In modern web development where there''s already an oversaturation of Javascript frameworks, Blazor offers .NET developers a new alternative to write client-side code without having to learn a new or unfamiliar language or framework.'
 -
-  name: CosmosDb
+  name: Azure Cosmos DB
   ring: adopt
   quadrant: platforms
   isNew: TRUE
-  description: 'Quite interesting because it allows querying within a no-sql database'
+  description: '<a href="https://azure.microsoft.com/nl-nl/services/cosmos-db/">Azure Cosmos DB</a> is a fully managed NoSQL database that excels in high performance reads, automatic scaling across multiple global regions and above most other document databases also the option to use SQL-like queries.<br><br>We have adopted Cosmos DB because it fits our needs in a lot of projects and is easy to use while developing. When relational integrity is not necessary, we like the benefits of NoSQL databases and Cosmos DB specifically. Only when it comes to heavy relational datasets, we would revert to an actual SQL database.'
 -
   name: Fluent Assertions
   ring: adopt
@@ -46,101 +52,118 @@
   ring: trial
   quadrant: tools
   isNew: TRUE
-  description: '<a href="https://www.terraform.io/">Terraform</a> is an infrastructure-as-code (IaC) tool for provisioning and maintaining cloud services.<br><br>Infrastructure-as-code allows us to create and maintain the server configurations that we need to host our applications in an unambigous and repeatable way. This increases the quality of our code because it eliminate any chance of differences between our development, test, acceptance and production environments.<br><br>One of the features of Terraform that we particularly like is it''s declarative syntax. This enables us to simply declare what the environment we want Terraform to create should look like, without needing to specify every single step that needs to be executed to create it. This also means that we can see exactly what is configured on each environment without having to parse dozens of install scripts.'
+  description: '<a href="https://www.terraform.io/">Terraform</a> is an infrastructure-as-code (IaC) tool for provisioning and maintaining cloud services.<br><br>Infrastructure-as-code allows us to create and maintain the server configurations that we need to host our applications in an unambiguous and repeatable way. This increases the quality of our code because it eliminates any chance of differences between our development, test, acceptance and production environments.<br><br>One of the features of Terraform that we particularly like is its declarative syntax. This enables us to simply declare what the environment we want Terraform to create should look like, without needing to specify every single step that needs to be executed to create it. This also means that we can see exactly what is configured on each environment without having to parse dozens of install scripts.'
 -
-  name: AKS
+  name: Azure Kubernetes Service
   ring: trial
   quadrant: platforms
   isNew: TRUE
-  description: '<a href="https://azure.microsoft.com/nl-nl/services/kubernetes-service/">Azure Kubernetes Service (AKS)</a> is a cloud service for hosting and maintaining container applications on Microsoft Azure, using Kubernetes.<br><br>Kubernetes has quickly become the de-facto standard for orchestrating container applications. With AKS we have an easy to use tool for working with Kubernetes in the Azure cloud. Since we have a lot of experience and affinity with Microsoft Azure as .Net developers, AKS is the logical tool we reach for when building container applications.'
+  description: '<a href="https://azure.microsoft.com/nl-nl/services/kubernetes-service/">Azure Kubernetes Service</a> (AKS) is a cloud service for hosting and maintaining container applications on Microsoft Azure, using Kubernetes.<br><br>Kubernetes has quickly become the de-facto standard for orchestrating container applications. With AKS we have an easy-to-use tool for working with Kubernetes in the Azure cloud. Since we, as .NET developers, have a lot of experience and affinity with Microsoft Azure, AKS is the logical tool we reach for when building container applications.'
 -
   name: FakeItEasy
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: 'With <b>FakeItEasy</b> the unit under test can be isoltated from the rest of the system so your not depended on it. With FakeItEasy the units external dependencies are replaced with Dummies, Mockes, Stubs or Fakes. In FakeItEasy they are all the same, and are created the same, but the usage determines what they eventually are. The framework allows an easy setup of an external dependency, and also the verification if external dependency call''s. The unit may call Mocking framework with an intuitive and fluent syntax. <br /><br /> Other mocking/isolation frameworks such as NSubstitute and Moq do the same job, but FakeItEasy makes it really, yes, easy.. '
+  description: 'With <a href="https://fakeiteasy.github.io/">FakeItEasy</a>, the unit under test can be isolated from dependencies on the rest of the system. Each external dependency is replaced with a dummy, mock, stub or fake, which in FakeItEasy are all the same, are created the same, only the usage determines what they are. The framework has an intuitive fluent syntax to setup each dependency and can manage and verify each of its calls including the parameters and return values with the same ease.<br><br>Other mocking/isolation frameworks such as NSubstitute and Moq do the same job, but FakeItEasy makes it really, yes, easy.'
 -
   name: Cypress
   ring: assess
   quadrant: tools
   isNew: TRUE
-  description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium like most testing frameworks do. It''s an <a href="https://www.cypress.io/how-it-works/">all-in-one test suite</a> that is blazing fast, easy to setup and an delight to delop with, that''s what we like at XPRTZ so more than enough reason to asses it.'
+  description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium like most testing frameworks do. It''s an <a href="https://www.cypress.io/how-it-works/">all-in-one test suite</a> that is blazing fast, easy to setup and a delight to develop with. That''s what we like at XPRTZ so more than enough reason to assess it!'
 -
   name: OpenShift
   ring: assess
   quadrant: platforms
   isNew: TRUE
-  description: 'Tool voor het hosten en beheren van container applicaties. Alternatief voor AKS.'
+  description: '<a href="https://www.openshift.com/">Red Hat OpenShift</a> is a product which can be seen as an extra layer on top of Kubernetes. With OpenShift you have more control over your containers. OpenShift contains a user-friendly dashboard which makes it easy to manage and create containers and images. On top of that, this platform provides tools like health checks and logging. These are one of the many core components from Red Hat OpenShift.<br><br>As organization you are in full control over which frameworks, apps and libraries are being used. This gives a lot of freedom to developers, because a developer can choose the components from a library.<br><br>With OpenShift developers can develop, test, and host (scalable) in one environment. Developers will mainly focus on developing instead of focusing on operating systems or infrastructure.<br><br>We''re evaluating OpenShift to see if it''s a good alternative for AKS.'
 -
   name: AutoFixture
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: 'With <a href="https://github.com/AutoFixture/AutoFixture">AutoFixture</a> you can easily create testfixures. When writing test code, you want to write code for that specific test case, and not all plumming code to initialize test objects because they require so. When initializing test objects only the test relvante parts are specified. The non-relevant parts are automatically filled with dummy data during execution. The test case is focused on the essentials of the testcase its self instead of object initialized. <br /><br /> There are alternatives such as <a href="https://github.com/bchavez/Bogus">Bogus</a>, which also generate fake data in test objects. An advantage of AutoFixture for asserting fake objects is the initialization of all properties with data, instead with Bogus only set properties are filled. It''s more which flavour you want. <br /><br /> We at XPRTZ use this all the time when writing unit tests. It makes Test-Driven Development a step easier and our lives as developers happier.'
+  description: 'With <b>AutoFixture</b> you can easily create test fixures. While writing tests you want to focus on the test case and not be burdened by all the boring setup that is required. When initializing test objects with AutoFixture, only test relevant parts are specified, non-relevant parts are automatically filled with dummy data. Now your test case is focused on the essentials instead of object initialization.<br><br>We use this when writing unit tests. It makes Test-Driven Development a step easier and our lives as developers happier. There are alternatives such as Bogus, which also generates fake data in test objects. An advantage of AutoFixture is the initialization of all properties with data.Bogus only sets properties that are filled. It''s more which flavour you prefer. Our choice is <a href="https://github.com/AutoFixture/AutoFixture">AutoFixture</a>!'
 -
-  name: Event-driven architectuur
+  name: Event-driven architecture
   ring: adopt
   quadrant: techniques
   isNew: TRUE
-  description: 'With <a href="https://martinfowler.com/articles/201701-event-driven.html">event-driven</a> architecture events are used to trigger and communicate between decoupled Microservices. An event is any change in a state, e.g. a customer is updated or even an external triggered situation. There are three key components in Event-driven architecture, namely event producers, event routers/mediators, and event consumers. The architecture is decoupled or lose coupled because producers don’t know which consumers are listening for an event, and what the consequences are of its occurrence. The Azure platform itself is can be used as an event producer, e.g. <i>Cosmos DB</i> change event or scaling events from App service plans. <br /><br />Platforms like Kafka or Dapr are good solutions to use in applications based on an event-driven architecture. But also basic messaging systems like <i>RabbitMQ</i>, <i>Service Bus</i> or <i>Azure Event Grid</i> will suffice but may require more "low-level" programming.
-'
+  description: 'With <a href="https://martinfowler.com/articles/201701-event-driven.html">event-driven architecture</a> events are used to trigger and communicate between decoupled Microservices. An event is any change in a state like customer data being updated or other external triggers. There are three key components in event-driven architecture, namely event producers, event routers/mediators, and event consumers. The architecture is decoupled or loosely coupled because producers don''t know which consumers are listening for an event, and what the consequences are of its occurrence. The Azure platform itself can be used as an event producer, for example Cosmos DB change events or scaling events from App service plans.<br><br>Kafka or Dapr are good solutions to use in applications based on an event-driven architecture. But also basic messaging systems like <i>RabbitMQ</i>, <i>Service Bus</i> or <i>Azure Event Grid</i> will suffice but may require more "low-level" programming.'
 -
-  name: Azure Servicebus
+  name: Infrastructure as Code
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: 'As developers we love to automate as many mundane tasks as we can: building our software, testing it and deploying it to production can all be automated these days with CI/CD tools like Azure Pipelines or GitHub Actions. So why not do the same with provisioning and maintaining the infrastructure our applications run on? Now that many applications run on virtual infrastructures like VMs or even containers, there is no reason to manage these with software as well. That is what is called <a href="https://en.wikipedia.org/wiki/Infrastructure_as_code">Infrastructure as Code</a> (IaC).<br><br>By automating all management of the infrastructure we can both reduce the risk of environments getting out of sync (because we forget to install some updates on one of them) and increase the speed of scaling our environments in our out (because we don''t have to go through a length manual process to provision a new environment, it''s just an automated script).'
+-
+  name: Microservice Architecture
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: 'Ask 10 different developers to define <a href="https://microservices.io/patterns/microservices.html">Microservice Architecture</a> and you''ll probably get 10 different responses. But at their core, microservices are just a way to design your software into independently deployable services that are loosely coupled.<br><br>Most developers with some years of experience have encountered applications where all systems are tightly coupled together so that it''s impossible to make or deploy changes to one system without having to change other systems as well. Or at the very least having to deploy everything all at once.<br><br>By splitting the application into independent services, it becomes possible to work on and deploy every service without having to wait on all other services. This means we can deploy more frequently (delivering more value to our customers) and make the deployments smaller (reducing the risk of mistakes or making them easier to find and fix).'
+-
+  name: CQRS Pattern
+  ring: adopt
+  quadrant: techniques
+  isNew: TRUE
+  description: '<a href="https://martinfowler.com/bliki/CQRS.html">Command and Query Responsibility Segregation</a> (CQRS) is an architecture pattern based on the Command and Query Separation (CQS) principle that states that methods should either be commands that perform an action, or queries that return data. CQRS is basically an extension of this principle where it''s applied throughout the architecture of the application, usually by creating different objects for queries and for commands.<br><br>By separating our application into commands and queries we make it possible to optimize both without influencing each other. For instance, in most systems a large portion of the transactions (both in actual number of transactions as in data being transferred) are queries. Because they are separated it becomes possible to scale the queries while leaving the commands-side relatively small (thus reducing cost).'
+-
+  name: Azure Service Bus
   ring: adopt
   quadrant: platforms
   isNew: TRUE
-  description: 'Servicebus implementatie op Microsoft Azure.'
+  description: '<a href="https://azure.microsoft.com/nl-nl/services/service-bus/">Azure Service Bus</a> is commonly used in our projects to decouple microservices. A big plus why we have adopted the Azure variant above other implementations is the high scalability and easy integration with our application landscape setup in Azure.'
 -
   name: Azure Functions
   ring: adopt
   quadrant: platforms
   isNew: TRUE
-  description: 'Serverless functions op Microsoft Azure.'
+  description: '<a href="https://azure.microsoft.com/nl-nl/services/functions/">Azure Functions</a> is Microsoft''s serverless computing offering and it allows us to further eliminate infrastructural code as it lives an abstraction level higher than container technology. This enables us to focus our developing efforts on the business logic of an application. Azure Functions can also be a cost-effective platform for low usage or highly fluctuating usage patterns.'
 -
-  name: Marten DB
+  name: Marten
   ring: assess
   quadrant: platforms
   isNew: TRUE
-  description: 'Storage oplossing specifiek ontworpen voor event-driven en CQS/CQRS architecturen.'
+  description: '<a href="https://martendb.io/">Marten</a> is a library provided as a Nuget package which gives .NET developers the ability to easily use the PostgreSQL database engine and its JSON support as a fully-fledged document database. Many of the Marten contributors were fans of the existing RavenDb database but wanted a more robust underlying technology. To that end, Marten was largely created to efficiently use the proven PostgreSQL database engine as a document database and act as a near drop-in replacement for RavenDb in several existing applications. As such, you may clearly see some influence from RavenDb on the Marten services and API''s.<br><br>The feature we like the most is the ability to transform a PostgreSQL database in an event store with Marten. It utilizes the strong JSONB support to expose an ACID-compliant event store implementation over the PostgreSQL database. It also takes advantage of PostgreSQL''s embedded JavaScript support to enable effective user-defined projections against your event streams.'
 -
   name: Dapr
   ring: assess
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'With <a href="https://dapr.io">Dapr</a> you have building blocks for building distributed applications. The shift away from monolithic applications to Microservices provided many benefits, but made it also more complex and harder for the developer. Dapr is specifically aimed to help with this in simplifying the development of distributed applications. <br /><br />Dapr is using <i>Kubernetes</i> as its primary cloud hosting environment, but it is not required. Dapr has pre-built components that solve a common set of problems in distributed applications, e.g. service invocation, state management, event handling, and many more. The key concept of Dapr is that it uses sidecars (small applications running along with your Microservices) to operate it main functionalities.<br /><br />We haven’t used it in projects, but we follow the progress Dapr with a lot of interest.'
+  description: '<a href="https://dapr.io/">Dapr</a> gives you building blocks for building distributed applications. The shift from monolithic applications to Microservices provided many benefits but also make developing more complex because all these microservices need to share many cross-cutting concerns. Dapr is specifically aimed to help  by simplifying the development of distributed applications.<br><br>Dapr is using Kubernetes as its primary cloud hosting environment, but it is not required. Dapr has pre-built components that solve a common set of problems in distributed applications, e.g., service invocation, state management, event handling, and many more. The key concept of Dapr is that it uses sidecars (small applications running along with your Microservices) to operate it main functionalities.<br><br>We haven''t had the opportunity to use Dapr in projects yet, but we believe it can be of great value. To be prepared we follow the progress of Dapr with a lot of interest.'
 -
-  name: Azure Static WebApps
+  name: Azure Static Web Apps
   ring: adopt
   quadrant: platforms
   isNew: TRUE
-  description: 'Platfom voor het hosten van simpele statische websites op Microsoft Azure.'
+  description: 'With <a href="https://azure.microsoft.com/nl-nl/services/app-service/static/">Azure Static Web Apps</a>, developers can build modern, full-stack JavaScript web apps with static front-ends and optional dynamic back-ends powered by serverless APIs. <br><br>Azure Static WebApps interacts directly with GitHub or Azure DevOps to monitor a branch of choice. With every commit into the watched branch, a build is automatically run and the app and API is deployed to Azure.'
 -
   name: GraphQL
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'Een query language voor API''s die alleen de data teruggeeft waarom gevraagd wordt.'
+  description: '<a href="https://graphql.org/">GraphQL</a> is a query language for API''s where the client of the API determines exactly what he wants to receive.<br><br>In most API''s when you execute an action you''re stuck with whatever object that action returns. If you only needed a portion of the result you''ve just received way more information than was necessary. Another common scenario is that you need to combine resources from multiple sources. Traditionally, this means you would have to query all sources separately and combine the data yourself.<br><br>With GraphQL, you can specify only the data that you need, even if it''s across multiple sources. This cleans up the client-side because you don''t need to create a lot of mappings to change what you receive from the API to what you actually need and it also reduces both the amount of API calls and the amount of wasted bandwidth sending data the client doesn''t need.'
 -
   name: gRPC
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: 'With <a href="https://grpc.io">gPRC</a> it is possible to communicate with remote services in a modern high perforce manner. gPRC is a framework where services have clear interfaces and structured messages for requests and responses. It uses Protobuf to serialize the messages to a binary message format, making the payload significant smaller compared to JSON. It supports both HTTP and HTTP2. <br /><br />Most web backend developers switched from SOAP to JSON (REST) / OpenAPI services past decade, and this is in many cases the best solution. But, when you have massive numbers of remote calls and milliseconds matter and both sides could be changed, gPRC should definitely be considered as a Remote Procedure Call (RPC) framework. <br /><br />We have used gPRC in Microservice architecture environments where low latency was required.'
+  description: 'With <a href="https://grpc.io/">gRPC</a> it is possible to communicate with remote services in a modern high perforce manner. gRPC is a Remote Procedure Call (RPC) framework where services have clear interfaces and structured messages for requests and responses. It uses <a href="https://developers.google.com/protocol-buffers/docs/overview">Protobuf</a> to serialize the messages to a binary message format, making the payload significant smaller compared to JSON. It supports both HTTP and HTTP2.<br><br>Most web backend developers switched from SOAP to JSON (REST) / OpenAPI services past decade, and this is in many cases the best solution. However, when you have massive numbers of remote calls, milliseconds matter and both sides could be changed, gRPC should definitely be considered as a good alternative.<br><br>We prefer using gRPC in Microservice architecture environments where low latency is required.'
 -
   name: GitHub Actions
   ring: assess
   quadrant: tools
   isNew: TRUE
-  description: 'Tool voor het automatiseren van CI/CD workflows vanuit GitHub repositories.'
+  description: '...'
 -
   name: Dependabot
   ring: trial
   quadrant: tools
   isNew: TRUE
-  description: 'Creert automatische pull requests om je dependencies up-to-date te houden.'
+  description: '<a href="https://dependabot.com/">Dependabot</a> is a Github tool used to automatically keep your project dependencies up to date. Dependabot first checks your project dependencies for any updates and if there are any a pull request is created. You can review and run the necessary tests on the pull request before merging it.<br><br>With Dependabot you spend less time updating your project dependencies and have more time to build.'
 -
-  name: Azure DevOps Pipelines
+  name: Azure Pipelines
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: 'Geautomatiseerde Ci/CD pipelines.'
+  description: '<a href="https://azure.microsoft.com/nl-nl/services/devops/pipelines/">Azure Pipelines</a> automatically builds and tests code projects to make them available to others. It works with just about any language or project type. Azure Pipelines combine continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.'
