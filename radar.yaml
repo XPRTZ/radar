@@ -150,12 +150,6 @@
   isNew: TRUE
   description: 'With <a href="https://grpc.io/">gRPC</a> it is possible to communicate with remote services in a modern high perforce manner. gRPC is a Remote Procedure Call (RPC) framework where services have clear interfaces and structured messages for requests and responses. It uses <a href="https://developers.google.com/protocol-buffers/docs/overview">Protobuf</a> to serialize the messages to a binary message format, making the payload significant smaller compared to JSON. It supports both HTTP and HTTP2.<br><br>Most web backend developers switched from SOAP to JSON (REST) / OpenAPI services past decade, and this is in many cases the best solution. However, when you have massive numbers of remote calls, milliseconds matter and both sides could be changed, gRPC should definitely be considered as a good alternative.<br><br>We prefer using gRPC in Microservice architecture environments where low latency is required.'
 -
-  name: GitHub Actions
-  ring: assess
-  quadrant: tools
-  isNew: TRUE
-  description: '...'
--
   name: Dependabot
   ring: trial
   quadrant: tools
