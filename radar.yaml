@@ -166,28 +166,28 @@
   ring: adopt
   quadrant: tools
   isNew: TRUE
-  description: '<a href="https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/">.NET Hot Reload</a> is a new feature in .NET 6 that allows you to modify your source code while the application is running. Front-end developers who work with frameworks like Angular, React or Vue will be familiar with this feature, but it''s new for .NET developers.<br><br>This feature greatly improves the developer experience while working on .NET applications. Instead of having to rebuild and restart your application every time you make a change, you can now keep the application running and see the effect of your changes immediately.<br><br>This has been a highly anticipated feature (as shown by the <a href="https://www.theverge.com/2021/10/22/22740701/microsoft-dotnet-hot-reload-removal-decision-open-source">uproar</a> that Microsoft triggered when they wanted to pull the feature from everything but Visual Studio just before the launch of .NET 6) and we see it as one of the main reasons why you would want to upgrade to .NET 6.'
+  description: '<a href="https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/">.NET Hot Reload</a> is a new feature in .NET 6 that allows developers to modify their source code while the application is running. Front-end developers who work with frameworks like Angular, React or Vue will be familiar with this feature, but it''s new for .NET developers.<br><br>This feature greatly improves the developer experience while working on .NET applications. Instead of having to rebuild and restart our application every time we make a change, we can now keep the application running and see the effect of our changes immediately.<br><br>This has been a highly anticipated feature (as shown by the <a href="https://www.theverge.com/2021/10/22/22740701/microsoft-dotnet-hot-reload-removal-decision-open-source">uproar</a> that Microsoft triggered when they wanted to pull the feature from everything but Visual Studio just before the launch of .NET 6) and we see it as one of the main reasons for upgrading to .NET 6.'
 -
   name: .NET 6 - Minimal Api
   ring: trial
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: '<a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis">Minimal APIs</a> are a new feature in .NET 6 that allows you to create HTTP APIs with minimal dependencies. Minimal APIs are ideal for microservices and apps that only need minimal dependencies and features. If you are new to .NET, using Minimal APIs can be helpful, because you do not have to learn and understand the ASP.NET Core MVC framework first to create your HTTP API.<br><br>With Minimal APIs you can create new HTTP APIs with just a few lines of code. Features like API versioning are not available yet, however the most common used features like authorization, dependency injection, routing and model binding are. This means Minimal APIs will not replace the traditional MVC framework yet, but it is a new possibility to create a HTTP API.<br><br>We see Minimal APIs as an excellent choice for creating all kinds of new HTTP APIs and would consider using it when starting a new project.'
 -
   name: .NET 6 - DateOnly & TimeOnly
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: '.NET 6 introduces two new value types, <a href="https://devblogs.microsoft.com/dotnet/date-time-and-time-zone-enhancements-in-net-6/#introducing-the-dateonly-and-timeonly-types">DateOnly and TimeOnly</a>, that represent either only the date or time portion of a DateTime. Both types are available in the System namespace and are built-in to .NET. These two types solve the unnecessary component of the DateTime type when we''re only concerned about one portion. For example: When we want to save a date of birth we''re probably not concerned about the time component of a DateTime, in this case the DateOnly type is more ideal.'
 -
   name: C# 10 - File-scoped namespace declarations
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 'For better readability, code lines are limited to a maximum amount of characters, which becomes more limited by the number of nested scopes. <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-10.0/file-scoped-namespaces">File-scoped namespace declaration</a> allows us to fill up the limited space we have with our beautiful code instead of whitespace.'
 -
   name: C# 10 - Global using definitions
   ring: adopt
   quadrant: languages & frameworks
   isNew: TRUE
-  description: ''
+  description: 'We believe in clean code and <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-10.0/globalusingdirective">global using definitions</a> introduced with C# 10 has given us some more control on cleaning a lot of boilerplate usings that are cluttering up the code files. By defining commonly used usings as global in a single code file, they no longer need to be defined in each single code file individually.'
