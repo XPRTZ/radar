@@ -19,10 +19,10 @@
   description: 'With <a href="https://github.com/microsoft/reverse-proxy">Yarp</a> a .Net application can be extended with a build-in reverse proxy. In a world of frontend applications and many backend microservices, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable .Net based Reverse proxy. Yarp uses the ASP.NET pipeline technology to manage incoming requests and routes the request streams to its destination. Routing could be done by configuration or in custom written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure.<br><br>Yarp is still experimental so for bigger projects, solutions like <a href="https://www.nginx.com/">Nginx</a> (a reverse-proxy) are a better solution. Yarp has potential, and in time could replace an <a href="https://github.com/ThreeMammals/Ocelot">Ocelot</a> (an api gateway) application (if you do not need the request/response bodies). At XPRTZ we keep track of this Microsoft project.'
 -
   name: Fluxor
-  ring: assess
+  ring: hold
   quadrant: languages & frameworks
   isNew: FALSE
-  description: '<a href="https://github.com/mrpmorris/Fluxor">Fluxor</a> is a Flux/Redux implementation for use in .Net and Blazor, to separate state changes and state reads and to be able to reuse data in different parts of the application with a single source of truth. This is a useful framework that extends Blazor and therefore we are assessing it in combination with Blazor.'
+  description: '<a href="https://github.com/mrpmorris/Fluxor">Fluxor</a> is a Flux/Redux implementation for use in .Net and Blazor, to separate state changes and state reads and to be able to reuse data in different parts of the application with a single source of truth. While the redux pattern is a useful pattern, this implementation is quite hard to test, without wiring up your whole application.'
 -
   name: Blazor
   ring: trial
