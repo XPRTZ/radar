@@ -10,7 +10,7 @@
   ring: hold
   quadrant: languages & frameworks
   isNew: FALSE
-  description: 'When it comes to frontend frameworks, <b>Vue</b> is the newest kid on the block. Now with <a href="https://v3.vuejs.org/">version 3 out of beta</a>, we believe it became mature enough to give it a trial run and compare against the other popular frontend frameworks Angular and React.'
+  description: 'For the past year <b>Vue</b> has been put to trial because it was the newest kid on the block when it comes to frontend frameworks. During the trial, we had to refactor our components design multiple times, because of a change of heart by the framework developers. Now that it has become somewhat more mature, we still haven't been convinced on strong benefits above either React or Angular. Although the project continues with Vue 3 because we see impediments or other reason to migrate, we will put it on hold since future projects would favor React or Angular.'
 -
   name: Yarp
   ring: assess
