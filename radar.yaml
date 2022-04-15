@@ -6,17 +6,23 @@
   isNew: FALSE
   description: '<b>Progressive Web Apps</b> are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web applications. By utilizing service workers that allow intercepting and control of how a web browser handles its network requests and asset caching, the user has reliable fast web pages and offline experience. One of our projects that uses a PWA is field worker application that allows its workers in the field to have a reliable web app experience while having to cope with unstable mobile connection. A beginner''s tutorial for setting up a PWA can be started <a href="https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/">here</a>'
 -
-  name: Vue3
-  ring: hold
-  quadrant: languages & frameworks
+  name: Cypress
+  ring: trial
+  quadrant: tools
   isNew: FALSE
-  description: 'For the past year <b>Vue</b> has been put to trial because it was the newest kid on the block when it comes to frontend frameworks. During the trial, we had to refactor our components design multiple times, because of a change of heart by the framework developers. Now that it has become somewhat more mature, we still haven't been convinced on strong benefits above either React or Angular. Although the project continues with Vue 3 because we see impediments or other reason to migrate, we will put it on hold since future projects would favor React or Angular.'
+  description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium like most testing frameworks do. It''s an <a href="https://www.cypress.io/how-it-works/">all-in-one test suite</a> that is blazing fast, easy to setup and a delight to develop with. That''s what we like at XPRTZ so more than enough reason to assess it!'
 -
   name: Yarp
   ring: assess
   quadrant: languages & frameworks
   isNew: FALSE
   description: 'With <a href="https://github.com/microsoft/reverse-proxy">Yarp</a> a .Net application can be extended with a build-in reverse proxy. In a world of frontend applications and many backend microservices, a reverse proxy could help to have a single endpoint for many different endpoints, aka servers. Yarp is a fast, lightweight, extendable .Net based Reverse proxy. Yarp uses the ASP.NET pipeline technology to manage incoming requests and routes the request streams to its destination. Routing could be done by configuration or in custom written logic. Because the reverse proxy application is just a piece of .Net code, its familiar and easy to work with. Namely, to code, to have it in source control and in your CI/CD pipeline and infrastructure.<br><br>Yarp is still experimental so for bigger projects, solutions like <a href="https://www.nginx.com/">Nginx</a> (a reverse-proxy) are a better solution. Yarp has potential, and in time could replace an <a href="https://github.com/ThreeMammals/Ocelot">Ocelot</a> (an api gateway) application (if you do not need the request/response bodies). At XPRTZ we keep track of this Microsoft project.'
+-
+  name: Vue3
+  ring: hold
+  quadrant: languages & frameworks
+  isNew: FALSE
+  description: 'For the past year <b>Vue</b> has been put to trial because it was the newest kid on the block when it comes to frontend frameworks. During the trial, we had to refactor our components design multiple times, because of a change of heart by the framework developers. Now that it has become somewhat more mature, we still haven''t been convinced on strong benefits above either React or Angular. Although the project continues with Vue 3 because we see impediments or other reason to migrate, we will put it on hold since future projects would favor React or Angular.'
 -
   name: Fluxor
   ring: hold
@@ -59,12 +65,6 @@
   quadrant: tools
   isNew: FALSE
   description: 'With <a href="https://fakeiteasy.github.io/">FakeItEasy</a>, the unit under test can be isolated from dependencies on the rest of the system. Each external dependency is replaced with a dummy, mock, stub or fake, which in FakeItEasy are all the same, are created the same, only the usage determines what they are. The framework has an intuitive fluent syntax to setup each dependency and can manage and verify each of its calls including the parameters and return values with the same ease.<br><br>Other mocking/isolation frameworks such as NSubstitute and Moq do the same job, but FakeItEasy makes it really, yes, easy.'
--
-  name: Cypress
-  ring: trial
-  quadrant: tools
-  isNew: FALSE
-  description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium like most testing frameworks do. It''s an <a href="https://www.cypress.io/how-it-works/">all-in-one test suite</a> that is blazing fast, easy to setup and a delight to develop with. That''s what we like at XPRTZ so more than enough reason to assess it!'
 -
   name: OpenShift
   ring: hold
