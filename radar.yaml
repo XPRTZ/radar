@@ -191,3 +191,15 @@
   quadrant: languages & frameworks
   isNew: FALSE
   description: '.NET 6 introduces two new value types, <a href="https://devblogs.microsoft.com/dotnet/date-time-and-time-zone-enhancements-in-net-6/#introducing-the-dateonly-and-timeonly-types">DateOnly and TimeOnly</a>, that represent either only the date or time portion of a DateTime. Both types are available in the System namespace and are built-in to .NET. These two types solve the unnecessary component of the DateTime type when we''re only concerned about one portion. For example: When we want to save a date of birth we''re probably not concerned about the time component of a DateTime, in this case the DateOnly type is more ideal.'
+-
+  name: Stryke Mutator
+  ring: assess
+  quadrant: tools
+  isNew: TRUE
+  description: 'Stryker Mutator is a mutation testing framework for .NET, JavaScript and Scala. Mutation testing is used to test your unit tests by creating mutants, each mutant is a mutation of your code. For each mutant, all tests will be run to see if a test fails, this way you can check the quality of your tests and if you need to add more to cover more scenarios. On the <a href="https://stryker-mutator.io">website</a> you will find good documentation which makes it easy to start using Stryker Mutator. It also is very configurable and easy to integrate in your pipeline with the available dotnet tool.'
+-
+  name: Project Tye
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 'Tye is a developer tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.'
