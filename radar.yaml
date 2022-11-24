@@ -9,7 +9,7 @@
   name: Cypress
   ring: trial
   quadrant: tools
-  isNew: TRUE
+  isNew: FALSE
   description: '<b>Cypress</b> is the next generation E2E testing tool that made itself famous by building its own architecture instead of using Selenium like most testing frameworks do. It''s an <a href="https://www.cypress.io/how-it-works/">all-in-one test suite</a> that is blazing fast, easy to setup and a delight to develop with. That''s what we like at XPRTZ so more than enough reason to assess it!'
 -
   name: Yarp
@@ -21,19 +21,19 @@
   name: Vue3
   ring: hold
   quadrant: languages & frameworks
-  isNew: TRUE
+  isNew: FALSE
   description: 'For the past year <b>Vue</b> has been put to trial because it was the newest kid on the block when it comes to frontend frameworks. During the trial, we had to refactor our components design multiple times, because of a change of heart by the framework developers. Now that it has become somewhat more mature, we still haven''t been convinced on strong benefits above either React or Angular. Although the project continues with Vue 3 because we see impediments or other reason to migrate, we will put it on hold since future projects would favor React or Angular.'
 -
   name: Fluxor
   ring: hold
   quadrant: languages & frameworks
-  isNew: TRUE
+  isNew: FALSE
   description: '<a href="https://github.com/mrpmorris/Fluxor">Fluxor</a> is a Flux/Redux implementation for use in .Net and Blazor, to separate state changes and state reads and to be able to reuse data in different parts of the application with a single source of truth. While the redux pattern is a useful pattern, this implementation is quite hard to test, without wiring up your whole application.'
 -
   name: Blazor
   ring: adopt
   quadrant: languages & frameworks
-  isNew: TRUE
+  isNew: FALSE
   description: '<a href="https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor">Blazor</a> is a client-side UI framework that allows you to build interactive web UIs using C#. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code are written in C#, allowing you to share code and libraries. Blazor can run directly in the browser using WebAsssembly, alternatively it can run client-side logic on the server by sending UI events to the server and receiving UI changes back using SignalR.<br><br>In modern web development where there''s already an oversaturation of Javascript frameworks, Blazor offers .NET developers a new alternative to write client-side code without having to learn a new or unfamiliar language or framework.'
 -
   name: Azure Cosmos DB
@@ -51,13 +51,13 @@
   name: Terraform
   ring: adopt
   quadrant: tools
-  isNew: TRUE
+  isNew: FALSE
   description: '<a href="https://www.terraform.io/">Terraform</a> is an infrastructure-as-code (IaC) tool for provisioning and maintaining cloud services.<br><br>Infrastructure-as-code allows us to create and maintain the server configurations that we need to host our applications in an unambiguous and repeatable way. This increases the quality of our code because it eliminates any chance of differences between our development, test, acceptance and production environments.<br><br>One of the features of Terraform that we particularly like is its declarative syntax. This enables us to simply declare what the environment we want Terraform to create should look like, without needing to specify every single step that needs to be executed to create it. This also means that we can see exactly what is configured on each environment without having to parse dozens of install scripts.'
 -
   name: Azure Kubernetes Service
   ring: adopt
   quadrant: platforms
-  isNew: TRUE
+  isNew: FALSE
   description: '<a href="https://azure.microsoft.com/nl-nl/services/kubernetes-service/">Azure Kubernetes Service</a> (AKS) is a cloud service for hosting and maintaining container applications on Microsoft Azure, using Kubernetes.<br><br>Kubernetes has quickly become the de-facto standard for orchestrating container applications. With AKS we have an easy-to-use tool for working with Kubernetes in the Azure cloud. Since we, as .NET developers, have a lot of experience and affinity with Microsoft Azure, AKS is the logical tool we reach for when building container applications.'
 -
   name: FakeItEasy
@@ -69,7 +69,7 @@
   name: OpenShift
   ring: hold
   quadrant: platforms
-  isNew: TRUE
+  isNew: FALSE
   description: '<a href="https://www.openshift.com/">Red Hat OpenShift</a> is a product which can be seen as an extra layer on top of Kubernetes. With OpenShift you have more control over your containers. OpenShift contains a user-friendly dashboard which makes it easy to manage and create containers and images. On top of that, this platform provides tools like health checks and logging. These are one of the many core components from Red Hat OpenShift.<br><br>As organization you are in full control over which frameworks, apps and libraries are being used. This gives a lot of freedom to developers, because a developer can choose the components from a library.<br><br>With OpenShift developers can develop, test, and host (scalable) in one environment. Developers will mainly focus on developing instead of focusing on operating systems or infrastructure.<br><br>We have moved OpenShift from assess to hold. If your organization is already working with Microsoft technologies we would recommend to implement AKS (Azure Kubernetes Services) or plain Kubernetes instead of OpenShift. OpenShift comes with a lot of features but Microsoft Azure (for example) provides all the necessary tools and features to achieve the same as with OpenShift'
 -
   name: AutoFixture
@@ -123,8 +123,8 @@
   name: Dapr
   ring: assess
   quadrant: languages & frameworks
-  isNew: FALSE
-  description: '<a href="https://dapr.io/">Dapr</a> gives you building blocks for building distributed applications. The shift from monolithic applications to Microservices provided many benefits but also make developing more complex because all these microservices need to share many cross-cutting concerns. Dapr is specifically aimed to help  by simplifying the development of distributed applications.<br><br>Dapr is using Kubernetes as its primary cloud hosting environment, but it is not required. Dapr has pre-built components that solve a common set of problems in distributed applications, e.g., service invocation, state management, event handling, and many more. The key concept of Dapr is that it uses sidecars (small applications running along with your Microservices) to operate it main functionalities.<br><br>We haven''t had the opportunity to use Dapr in projects yet, but we believe it can be of great value. To be prepared we follow the progress of Dapr with a lot of interest.'
+  isNew: TRUE
+  description: '<a href="https://dapr.io/">Dapr</a> gives you building blocks for building distributed applications. The shift from monolithic applications to Microservices provided many benefits but also make developing more complex because all these microservices need to share many cross-cutting concerns. Dapr is specifically aimed to help by simplifying the development of distributed applications. Dapr is using Kubernetes as its primary cloud hosting environment, but it is not required. Alternatives include self-hosting using Docker or going serverless with Azure Container Apps. Dapr has pre-built components that solve a common set of problems in distributed applications, e.g., service invocation, state management, event handling and many more. The key concept of Dapr is that it uses sidecars (small applications running along with your Microservices) to operate its main functions. We are following the progress of Dapr with great interest and will continue to do so, but we’re still reluctant to using and recommending it due to the seemingly low adoption, poor development tooling and very specific fit for purpose.'
 -
   name: Azure Static Web Apps
   ring: adopt
@@ -195,11 +195,23 @@
   name: Stryke Mutator
   ring: assess
   quadrant: tools
-  isNew: TRUE
+  isNew: FALSE
   description: 'Stryker Mutator is a mutation testing framework for .NET, JavaScript and Scala. Mutation testing is used to test your unit tests by creating mutants, each mutant is a mutation of your code. For each mutant, all tests will be run to see if a test fails, this way you can check the quality of your tests and if you need to add more to cover more scenarios. On the <a href="https://stryker-mutator.io">website</a> you will find good documentation which makes it easy to start using Stryker Mutator. It also is very configurable and easy to integrate in your pipeline with the available dotnet tool.'
 -
   name: Project Tye
   ring: trial
   quadrant: tools
-  isNew: TRUE
+  isNew: FALSE
   description: 'Tye is a developer tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.'
+-
+  name: Github Copilot
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 'GitHub Copilot is an AI pair programmer, it will give you autocomplete suggestions while writing new code. GitHub Copilot can give suggestions based on natural language comments or based on the code you have written. GitHub Copilot analyzes the context in the files you are working with and based on that it will offer suggestions. GitHub Copilot supports multiple languages; Python, JavaScript, TypeScript, Ruby, Go, C#, or C++. GitHub Copilot is available as an extension in Visual Studio Code, Visual Studio, Neovim and the JetBrains suite of IDEs. Some final notes; we are interested in the possibilities of GitHub CoPilot but we have also read about some events where GitHub CoPilot is infringing copyright.'
+-
+  name: DevToys
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 'A Swiss Army knife for developers, including converters, encoders, generators; on top of that it''s open source so feel free to add your own additional tools. It can automatically apply the desired action based on the latest clipboard content. So, if you open the tool after copying a JWT token onto the clipboard, it will show the decoded token in the JWT decoder tool. An additional benefit over various online tools is the offline availability and security by removing the need to send private / confidential data to potential malicious websites.'
