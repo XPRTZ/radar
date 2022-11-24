@@ -203,3 +203,16 @@
   quadrant: tools
   isNew: TRUE
   description: 'Tye is a developer tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.'
+-
+  name: Github Copilot
+  ring: trial
+  quadrant: tools
+  isNew: TRUE
+  description: 'GitHub Copilot is an AI pair programmer, it will give you autocomplete suggestions while writing new code. GitHub Copilot can give suggestions based on natural language comments or based on the code you have written. GitHub Copilot analyzes the context in the files you are working with and based on that it will offer suggestions. GitHub Copilot supports multiple languages; Python, JavaScript, TypeScript, Ruby, Go, C#, or C++. GitHub Copilot is available as an extension in Visual Studio Code, Visual Studio, Neovim and the JetBrains suite of IDEs. Some final notes; we are interested in the possibilities of GitHub CoPilot but we have also read about some events where GitHub CoPilot is infringing copyright.'
+-
+  name: DevToys
+  ring: adopt
+  quadrant: tools
+  isNew: TRUE
+  description: 'A Swiss Army knife for developers, including converters, encoders, generators; on top of that it''s open source so feel free to add your own additional tools. It can automatically apply the desired action based on the latest clipboard content. So, if you open the tool after copying a JWT token onto the clipboard, it will show the decoded token in the JWT decoder tool. An additional benefit over various online tools is the offline availability and security by removing the need to send private / confidential data to potential malicious websites.'
+
