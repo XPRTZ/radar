@@ -19,7 +19,7 @@ const SheetNotFoundError = require('../exceptions/sheetNotFoundError')
 const ContentValidator = require('./contentValidator')
 const ExceptionMessages = require('./exceptionMessages')
 
-const sheet = require(process.env.SHEETFILE)
+const sheet = require('../../../content/radar.csv')
 
 const plotRadar = function (title, blips, currentRadarName, alternativeRadars) {
   document.title = title
@@ -66,7 +66,7 @@ const plotRadar = function (title, blips, currentRadarName, alternativeRadars) {
   new GraphingRadar(size, radar).init().plot()
 }
 
-const CSVDocument = function (url) {
+const CSVDocument = function () {
   var self = {}
 
   self.build = function () {
@@ -99,7 +99,7 @@ const GoogleSheetInput = function () {
   var sheet
 
   self.build = function () {
-    sheet = CSVDocument(process.env.SHEETFILE)
+    sheet = CSVDocument()
     sheet.init().build()
   }
 
