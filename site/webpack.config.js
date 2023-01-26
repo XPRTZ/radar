@@ -10,13 +10,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 const cssnano = require('cssnano')
 
-const isProd = args.prod
-const isDev = args.dev
-const env = args.envFile
-if (env) {
-  // Load env file
-  require('dotenv').config({ path: env })
-}
+const isProd = args.mode === 'production'
+const isDev = args.mode === 'development'
+
+var env = isProd ? '.env' : '.env.development'
+require('dotenv').config({ path: env })
 
 const main = ['./src/site.js']
 const common = ['./src/common.js']
@@ -45,6 +43,7 @@ const plugins = [
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY),
     'process.env.ENABLE_GOOGLE_AUTH': JSON.stringify(process.env.ENABLE_GOOGLE_AUTH),
     'process.env.GTM_ID': JSON.stringify(process.env.GTM_ID),
+    'process.env.SHEETFILE': JSON.stringify(path.resolve(__dirname, process.env.SHEETPATH)),
   }),
 ]
 
@@ -123,6 +122,14 @@ module.exports = {
         test: require.resolve('jquery'),
         loader: 'expose-loader',
         options: { exposes: ['$', 'jQuery'] },
+      },
+      {
+        test: /\.csv$/,
+        loader: 'csv-loader',
+        options: {
+          dynamicTyping: true,
+          header: true,
+        },
       },
     ],
   },

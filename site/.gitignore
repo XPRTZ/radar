@@ -18,3 +18,5 @@ cypress/
 .private.notes
 
 .talismanrc
+
+.env.development
