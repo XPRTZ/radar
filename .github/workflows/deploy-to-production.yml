@@ -1,0 +1,37 @@
+name: Deploy to production
+run-name: Deploy to production by ${{ github.actor }}
+
+on: ["push"]
+
+env:
+  NODE_VERSION: "12.x"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Build radar.csv
+        run: |
+          cd content
+          npm install
+          npm run convert
+
+      - name: Build site
+        run: |
+          cd site
+          npm install
+          npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: xprtz-tech-radar
+          path: site/dist/
