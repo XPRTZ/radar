@@ -52,7 +52,13 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob delete-batch --account-name xprtzradar --auth-mode key -d '$web'
+            az storage blob delete-batch --account-name xprtzradar --auth-mode key -s '$web'
+
+      - name: Upload to Azure
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob upload-batch --account-name xprtzradar --auth-mode key -d '$web' -s .
 
       - name: Logout
         run: |
