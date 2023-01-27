@@ -1,7 +1,9 @@
 name: Deploy to production
 run-name: Deploy to production by ${{ github.actor }}
 
-on: ["push"]
+on:
+  push:
+    branches: ["master"]
 
 env:
   NODE_VERSION: "12.x"
