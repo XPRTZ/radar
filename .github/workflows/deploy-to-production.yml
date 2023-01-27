@@ -48,11 +48,11 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Upload to Azure
+      - name: Clear Storage Container
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name xprtzradar --auth-mode key -d '$web' -s .
+            az storage blob delete-batch --account-name xprtzradar --auth-mode key -d '$web'
 
       - name: Logout
         run: |
