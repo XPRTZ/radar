@@ -34,3 +34,26 @@ jobs:
         with:
           name: xprtz-tech-radar
           path: site/dist/
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: xprtz-tech-radar
+
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Upload to Azure
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob upload-batch --account-name xprtzradar --auth-mode key -d '$web' -s .
+
+      - name: Logout
+        run: |
+          az logout
+        if: always()
