@@ -215,3 +215,16 @@
   quadrant: tools
   isNew: TRUE
   description: 'A Swiss Army knife for developers, including converters, encoders, generators; on top of that it''s open source so feel free to add your own additional tools. It can automatically apply the desired action based on the latest clipboard content. So, if you open the tool after copying a JWT token onto the clipboard, it will show the decoded token in the JWT decoder tool. An additional benefit over various online tools is the offline availability and security by removing the need to send private / confidential data to potential malicious websites.'
+-
+  name: Chaos Engineering
+  ring: trial
+  quadrant: techniques
+  isNew: TRUE
+  description: 'Chaos engineering is the discipline of experimenting on a system in order to build confidence in the system''s capability to withstand turbulent conditions in production. / A well known tool is Chaos Monkey by Netflix that randomly turns of servers in production to test if the system automatically restores itself.'
+
+-
+  name: Azure Chaos Studio
+  ring: tools
+  quadrant: assess
+  isNew: TRUE
+  description: 'Azure Chaos Studio is a new Azure offering, it allow for the creation of Chaos Engineering experiments in Azure. / For example a connection between 2 services can be broken of extra latency can be temporary introduced to see how the system responds.'
