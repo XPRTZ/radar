@@ -1,0 +1,74 @@
+name: Deploy to production
+run-name: Deploy to production by ${{ github.actor }}
+
+on:
+  push:
+    branches: ["master"]
+
+env:
+  NODE_VERSION: "12.x"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Build radar.csv
+        run: |
+          cd content
+          npm install
+          npm run convert
+
+      - name: Build site
+        run: |
+          cd site
+          npm install
+          npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: xprtz-tech-radar
+          path: site/dist/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: xprtz-tech-radar
+
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Clear Storage Container
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob delete-batch --account-name xprtzradar --auth-mode key -s '$web'
+
+      - name: Upload to Azure
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob upload-batch --account-name xprtzradar --auth-mode key -d '$web' -s .
+
+      - name: Purge CDN
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az cdn endpoint purge -n ${{ secrets.AZURE_CDN_ENDPOINT }} --profile-name ${{ secrets.AZURE_CDN_PROFILE_NAME }} --content-paths "/*" --resource-group ${{ secrets.AZURE_RESOURCE_GROUP }} --no-wait
+
+      - name: Logout
+        run: |
+          az logout
+        if: always()
