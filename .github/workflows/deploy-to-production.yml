@@ -19,16 +19,11 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Build radar.csv
-        run: |
-          cd content
-          npm install
-          npm run parse
-
       - name: Build site
         run: |
           cd site
           npm install
+          npm run parse
           npm run build
 
       - name: Upload artifact

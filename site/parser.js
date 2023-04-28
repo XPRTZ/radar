@@ -2,7 +2,7 @@ const fs = require("fs-extra");
 const path = require("path");
 const Papa = require("papaparse");
 
-const inputDirectory = "./items";
+const inputDirectory = "../items";
 const outputFile = "./radar.csv";
 
 const folderOrder = ["Adopt", "Trial", "Assess", "Hold"]; // Add folder names in the desired order

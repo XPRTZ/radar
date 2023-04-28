@@ -19,7 +19,7 @@ const SheetNotFoundError = require('../exceptions/sheetNotFoundError')
 const ContentValidator = require('./contentValidator')
 const ExceptionMessages = require('./exceptionMessages')
 
-const sheet = require('../../../content/radar.csv')
+const sheet = require('../../radar.csv')
 
 const plotRadar = function (title, blips, currentRadarName, alternativeRadars) {
   document.title = title
