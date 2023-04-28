@@ -1,0 +1,3 @@
+<a href="https://azure.microsoft.com/nl-nl/services/kubernetes-service/">Azure Kubernetes Service</a> (AKS) is a cloud service for hosting and maintaining container applications on Microsoft Azure, using Kubernetes.
+
+Kubernetes has quickly become the de-facto standard for orchestrating container applications. With AKS we have an easy-to-use tool for working with Kubernetes in the Azure cloud. Since we, as .NET developers, have a lot of experience and affinity with Microsoft Azure, AKS is the logical tool we reach for when building container applications.

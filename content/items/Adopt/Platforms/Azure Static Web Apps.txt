@@ -1,0 +1,3 @@
+With <a href="https://azure.microsoft.com/nl-nl/services/app-service/static/">Azure Static Web Apps</a>, developers can build modern, full-stack JavaScript web apps with static front-ends and optional dynamic back-ends powered by serverless APIs. 
+
+Azure Static WebApps interacts directly with GitHub or Azure DevOps to monitor a branch of choice. With every commit into the watched branch, a build is automatically run and the app and API is deployed to Azure.

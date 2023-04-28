@@ -1,0 +1,5 @@
+<a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis">Minimal APIs</a> are a new feature in .NET 6 that allows you to create HTTP APIs with minimal dependencies. Minimal APIs are ideal for microservices and apps that only need minimal dependencies and features. If you are new to .NET, using Minimal APIs can be helpful, because you do not have to learn and understand the ASP.NET Core MVC framework first to create your HTTP API.
+
+With Minimal APIs you can create new HTTP APIs with just a few lines of code. Features like API versioning are not available yet, however the most common used features like authorization, dependency injection, routing and model binding are. This means Minimal APIs will not replace the traditional MVC framework yet, but it is a new possibility to create a HTTP API.
+
+We see Minimal APIs as an excellent choice for creating all kinds of new HTTP APIs and would consider using it when starting a new project.

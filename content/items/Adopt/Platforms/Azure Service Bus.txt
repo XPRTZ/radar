@@ -1,0 +1,1 @@
+<a href="https://azure.microsoft.com/nl-nl/services/service-bus/">Azure Service Bus</a> is commonly used in our projects to decouple microservices. A big plus why we have adopted the Azure variant above other implementations is the high scalability and easy integration with our application landscape setup in Azure.

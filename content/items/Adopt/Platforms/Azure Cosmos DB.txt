@@ -1,0 +1,3 @@
+<a href="https://azure.microsoft.com/nl-nl/services/cosmos-db/">Azure Cosmos DB</a> is a fully managed NoSQL database that excels in high performance reads, automatic scaling across multiple global regions and above most other document databases also the option to use SQL-like queries.
+
+We have adopted Cosmos DB because it fits our needs in a lot of projects and is easy to use while developing. When relational integrity is not necessary, we like the benefits of NoSQL databases and Cosmos DB specifically. Only when it comes to heavy relational datasets, we would revert to an actual SQL database.

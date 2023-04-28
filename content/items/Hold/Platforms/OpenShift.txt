@@ -1,0 +1,7 @@
+<a href="https://www.openshift.com/">Red Hat OpenShift</a> is a product which can be seen as an extra layer on top of Kubernetes. With OpenShift you have more control over your containers. OpenShift contains a user-friendly dashboard which makes it easy to manage and create containers and images. On top of that, this platform provides tools like health checks and logging. These are one of the many core components from Red Hat OpenShift.
+
+As organization you are in full control over which frameworks, apps and libraries are being used. This gives a lot of freedom to developers, because a developer can choose the components from a library.
+
+With OpenShift developers can develop, test, and host (scalable) in one environment. Developers will mainly focus on developing instead of focusing on operating systems or infrastructure.
+
+We have moved OpenShift from assess to hold. If your organization is already working with Microsoft technologies we would recommend to implement AKS (Azure Kubernetes Services) or plain Kubernetes instead of OpenShift. OpenShift comes with a lot of features but Microsoft Azure (for example) provides all the necessary tools and features to achieve the same as with OpenShift

@@ -23,7 +23,7 @@ jobs:
         run: |
           cd content
           npm install
-          npm run convert
+          npm run parse
 
       - name: Build site
         run: |

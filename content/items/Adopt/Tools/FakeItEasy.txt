@@ -1,0 +1,3 @@
+With <a href="https://fakeiteasy.github.io/">FakeItEasy</a>, the unit under test can be isolated from dependencies on the rest of the system. Each external dependency is replaced with a dummy, mock, stub or fake, which in FakeItEasy are all the same, are created the same, only the usage determines what they are. The framework has an intuitive fluent syntax to setup each dependency and can manage and verify each of its calls including the parameters and return values with the same ease.
+
+Other mocking/isolation frameworks such as NSubstitute and Moq do the same job, but FakeItEasy makes it really, yes, easy.
