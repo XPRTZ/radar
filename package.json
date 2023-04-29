@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "parse": "node parser.js",
-    "watchparse": "chokidar \"parser.js\" \"../items/**/*.txt\" -c \"npm run parse\"",
+    "watchparse": "chokidar \"parser.js\" \"items/**/*.txt\" -c \"npm run parse\"",
     "build": "webpack --mode production",
     "dev-server": "webpack-dev-server --mode development",
     "dev": "npm-run-all --parallel watchparse dev-server",
@@ -15,7 +15,9 @@
     "lint-prettier:fix": "eslint . --fix && prettier --write .",
     "start": "cypress open --env host=$TEST_URL",
     "coverage": "nyc npm run test",
-    "quality": "npm run lint-prettier:check && npm run coverage"
+    "quality": "npm run lint-prettier:check && npm run coverage",
+    "copy-output": "node copyOutput.js",
+    "prepare": "husky install"
   },
   "author": "Thoughtworks",
   "repository": {
@@ -42,6 +44,7 @@
     "eslint-plugin-jasmine": "^4.1.3",
     "expose-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.3",
     "jasmine": "^4.0.2",
     "jsdom": "^19.0.0",
     "mini-css-extract-plugin": "^2.6.0",

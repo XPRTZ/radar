@@ -11,8 +11,9 @@ Technology Radar:
 To edit the contents of the radar, you can follow this approach:
 
 1. Clone this repo
-2. Execute `npm run dev` in the "site" folder to watch the "items" folder for changes and preview the site in the browser on http://localhost:8080
-3. Commit and push to make changes visible for the rest of the world
+2. Execute `npm install` to install the necessary dependencies
+3. Execute `npm run dev` in the "site" folder to watch the "items" folder for changes and preview the site in the browser on http://localhost:8080
+4. Commit and push to make changes visible for the rest of the world
 
 ## Background information
 
