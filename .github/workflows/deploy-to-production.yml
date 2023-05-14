@@ -21,7 +21,6 @@ jobs:
 
       - name: Build site
         run: |
-          cd site
           npm install
           npm run build
 
