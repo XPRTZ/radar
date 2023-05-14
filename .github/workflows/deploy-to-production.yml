@@ -24,6 +24,12 @@ jobs:
           npm install
           npm run build
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: xprtz-tech-radar
+          path: dist/
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
