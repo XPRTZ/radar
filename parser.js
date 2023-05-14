@@ -53,7 +53,10 @@ async function parseDirectory(dir, previousData, depth = 0, quadrant = null, rin
     } else if (path.extname(file) === '.txt') {
       const description = (await fs.readFile(filePath, 'utf8')).replace(/\r?\n/g, '<br>')
       const name = path.basename(file, '.txt')
-      const isNew = !previousData.some((item) => item.name === name && item.description === description)
+      const isNew = !previousData.some(
+        (item) =>
+          item.name === name && item.description === description && item.quadrant === quadrant && item.ring == ring,
+      )
       parsedData.push({
         quadrant,
         ring: ring || 'default',
