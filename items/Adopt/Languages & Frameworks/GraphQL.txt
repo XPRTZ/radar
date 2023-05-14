@@ -1,0 +1,5 @@
+<a href="https://graphql.org/">GraphQL</a> is a query language for API's where the client of the API determines exactly what he wants to receive.
+
+In most API's when you execute an action you're stuck with whatever object that action returns. If you only needed a portion of the result you've just received way more information than was necessary. Another common scenario is that you need to combine resources from multiple sources. Traditionally, this means you would have to query all sources separately and combine the data yourself.
+
+With GraphQL, you can specify only the data that you need, even if it's across multiple sources. This cleans up the client-side because you don't need to create a lot of mappings to change what you receive from the API to what you actually need and it also reduces both the amount of API calls and the amount of wasted bandwidth sending data the client doesn't need.

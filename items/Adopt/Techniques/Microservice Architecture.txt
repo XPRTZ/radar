@@ -1,0 +1,5 @@
+Ask 10 different developers to define <a href="https://microservices.io/patterns/microservices.html">Microservice Architecture</a> and you'll probably get 10 different responses. But at their core, microservices are just a way to design your software into independently deployable services that are loosely coupled.
+
+Most developers with some years of experience have encountered applications where all systems are tightly coupled together so that it's impossible to make or deploy changes to one system without having to change other systems as well. Or at the very least having to deploy everything all at once.
+
+By splitting the application into independent services, it becomes possible to work on and deploy every service without having to wait on all other services. This means we can deploy more frequently (delivering more value to our customers) and make the deployments smaller (reducing the risk of mistakes or making them easier to find and fix).

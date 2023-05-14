@@ -1,0 +1,5 @@
+<a href="https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/">.NET Hot Reload</a> is a new feature in .NET 6 that allows developers to modify their source code while the application is running. Front-end developers who work with frameworks like Angular, React or Vue will be familiar with this feature, but it's new for .NET developers.
+
+This feature greatly improves the developer experience while working on .NET applications. Instead of having to rebuild and restart our application every time we make a change, we can now keep the application running and see the effect of our changes immediately.
+
+This has been a highly anticipated feature (as shown by the <a href="https://www.theverge.com/2021/10/22/22740701/microsoft-dotnet-hot-reload-removal-decision-open-source">uproar</a> that Microsoft triggered when they wanted to pull the feature from everything but Visual Studio just before the launch of .NET 6) and we see it as one of the main reasons for upgrading to .NET 6.

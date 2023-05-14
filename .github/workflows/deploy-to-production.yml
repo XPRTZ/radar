@@ -3,10 +3,10 @@ run-name: Deploy to production by ${{ github.actor }}
 
 on:
   push:
-    branches: ["master"]
+    branches: ['master']
 
 env:
-  NODE_VERSION: "12.x"
+  NODE_VERSION: '12.x'
 
 jobs:
   build:
@@ -19,23 +19,11 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Build radar.csv
-        run: |
-          cd content
-          npm install
-          npm run convert
-
       - name: Build site
         run: |
           cd site
           npm install
           npm run build
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: xprtz-tech-radar
-          path: site/dist/
 
   deploy:
     runs-on: ubuntu-latest

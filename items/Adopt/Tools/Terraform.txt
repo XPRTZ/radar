@@ -1,0 +1,5 @@
+<a href="https://www.terraform.io/">Terraform</a> is an infrastructure-as-code (IaC) tool for provisioning and maintaining cloud services.
+
+Infrastructure-as-code allows us to create and maintain the server configurations that we need to host our applications in an unambiguous and repeatable way. This increases the quality of our code because it eliminates any chance of differences between our development, test, acceptance and production environments.
+
+One of the features of Terraform that we particularly like is its declarative syntax. This enables us to simply declare what the environment we want Terraform to create should look like, without needing to specify every single step that needs to be executed to create it. This also means that we can see exactly what is configured on each environment without having to parse dozens of install scripts.

@@ -1,0 +1,3 @@
+<a href="https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor">Blazor</a> is a client-side UI framework that allows you to build interactive web UIs using C#. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code are written in C#, allowing you to share code and libraries. Blazor can run directly in the browser using WebAsssembly, alternatively it can run client-side logic on the server by sending UI events to the server and receiving UI changes back using SignalR.
+
+In modern web development where there's already an oversaturation of Javascript frameworks, Blazor offers .NET developers a new alternative to write client-side code without having to learn a new or unfamiliar language or framework.

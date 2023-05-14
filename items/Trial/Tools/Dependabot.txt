@@ -1,0 +1,3 @@
+<a href="https://dependabot.com/">Dependabot</a> is a Github tool used to automatically keep your project dependencies up to date. Dependabot first checks your project dependencies for any updates and if there are any a pull request is created. You can review and run the necessary tests on the pull request before merging it.
+
+With Dependabot you spend less time updating your project dependencies and have more time to build.
