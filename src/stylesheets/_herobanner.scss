@@ -4,7 +4,7 @@
 @if $UIRefresh2022 {
   .hero-banner {
     height: $tabletBannerHeight;
-    background-color: $amethyst;
+    background-color: $xprtz;
     background-image: url('/images/banner-image-mobile.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -21,7 +21,6 @@
     @include media-query-xlarge {
       background-image: url('/images/banner-image-desktop.jpg');
       height: $bannerHeight;
-      background-size: cover;
     }
 
     &__wrapper {
@@ -40,6 +39,7 @@
       width: fit-content;
       text-align: left;
       text-transform: none;
+      font-size: 1.5rem;
       letter-spacing: 0;
       cursor: pointer;
     }
