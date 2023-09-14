@@ -7,25 +7,16 @@ const args = require('yargs').argv
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const postcssPresetEnv = require('postcss-preset-env')
-const cssnano = require('cssnano')
 
-const isProd = args.prod
-const isDev = args.dev
 const env = args.envFile
 if (env) {
   // Load env file
   require('dotenv').config({ path: env })
 }
 
-const main = ['./src/site.js']
 const common = ['./src/common.js']
-let devtool
 
-if (isDev) {
-  main.push('webpack-dev-server/client?http://0.0.0.0:8080')
-  devtool = 'source-map'
-}
+const ASSET_PATH = process.env.ASSET_PATH || '/'
 
 const plugins = [
   new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
@@ -34,37 +25,30 @@ const plugins = [
     chunks: ['main'],
     inject: 'body',
   }),
-  new HtmlWebpackPlugin({
-    template: './src/error.html',
-    chunks: ['common'],
-    inject: 'body',
-    filename: 'error.html',
-  }),
   new webpack.DefinePlugin({
     'process.env.CLIENT_ID': JSON.stringify(process.env.CLIENT_ID),
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY),
     'process.env.ENABLE_GOOGLE_AUTH': JSON.stringify(process.env.ENABLE_GOOGLE_AUTH),
     'process.env.GTM_ID': JSON.stringify(process.env.GTM_ID),
+    'process.env.RINGS': JSON.stringify(process.env.RINGS),
+    'process.env.QUADRANTS': JSON.stringify(process.env.QUADRANTS),
+    'process.env.ADOBE_LAUNCH_SCRIPT_URL': JSON.stringify(process.env.ADOBE_LAUNCH_SCRIPT_URL),
   }),
 ]
 
-if (isProd) {
-  plugins.push(new webpack.NoEmitOnErrorsPlugin())
-}
-
 module.exports = {
+  context: __dirname,
   entry: {
-    main: main,
     common: common,
   },
-
   output: {
     path: buildPath,
-    publicPath: '/',
+    publicPath: ASSET_PATH,
     filename: '[name].[contenthash].js',
     assetModuleFilename: 'images/[name][ext]',
   },
   resolve: {
+    extensions: ['.js', '.ts'],
     fallback: {
       fs: false,
     },
@@ -82,32 +66,6 @@ module.exports = {
               presets: ['@babel/preset-env'],
             },
           },
-        ],
-      },
-      {
-        test: /\.scss$/,
-        exclude: /node_modules/,
-        use: [
-          'style-loader',
-          MiniCssExtractPlugin.loader,
-          {
-            loader: 'css-loader',
-            options: { importLoaders: 1, modules: 'global', url: false },
-          },
-          {
-            loader: 'postcss-loader',
-            options: {
-              postcssOptions: {
-                plugins: [
-                  postcssPresetEnv({ browsers: 'last 2 versions' }),
-                  cssnano({
-                    preset: ['default', { discardComments: { removeAll: true } }],
-                  }),
-                ],
-              },
-            },
-          },
-          'sass-loader',
         ],
       },
       {
@@ -136,12 +94,4 @@ module.exports = {
   },
 
   plugins: plugins,
-
-  devtool: devtool,
-
-  devServer: {
-    static: { directory: buildPath },
-    host: '0.0.0.0',
-    port: 8080,
-  },
 }
