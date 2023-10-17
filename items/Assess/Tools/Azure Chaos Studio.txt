@@ -1,0 +1,1 @@
+Azure Chaos Studio is a new Azure offering, it allow for the creation of Chaos Engineering experiments in Azure. For example a connection between 2 services can be broken of extra latency can be temporary introduced to see how the system responds.
