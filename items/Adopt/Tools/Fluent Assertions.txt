@@ -1,1 +1,0 @@
-<b>Fluent Assertions</b> is an extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. Many of our XPRTZ colleagues have <a href="https://fluentassertions.com/">FluentAssertions</a> in their standard set of tools that are used for each project.
